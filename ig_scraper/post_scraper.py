@@ -10,7 +10,7 @@ from os.path import expanduser
 from sqlite3 import connect
 
 
-## python test.py --batchfile batch.txt
+## python post_scraper.py --batchfile batch.txt
 
 config_path = pathlib.Path(__file__, "..","config.py").resolve()
 if not config_path.exists():
@@ -53,34 +53,11 @@ if not output_path.exists() or not output_path.is_dir():
 
 ## initiating instaloader
 instagram = instaloader.Instaloader(download_comments=False, download_pictures=False, download_videos=False,
-									download_video_thumbnails=False, save_metadata=False)
+									download_video_thumbnails=False, save_metadata=False, max_connection_attempts=1)
 
 
 ## loading the session
 instagram.load_session_from_file(config.USERNAME)
-
-"""## login to instagram
-USER = 'christy.kinnaird'
-PROFILE = USER
-
-# Load session previously saved with `instaloader -l USERNAME`:
-instagram.load_session_from_file(USER)
-"""
-
-
-
-'''try:
-	instagram.login(config.USERNAME, config.PASSWORD)
-except (instaloader.BadCredentialsException, instaloader.InvalidArgumentException):
-	print("Invalid username or password configured in config.py. Cannot scrape.")
-	sys.exit(1)
-except instaloader.TwoFactorAuthRequiredException:
-	print("This account (%s) requires two-factor authentication. The scraper is not" % (config.USERNAME))
-	print("able to handle 2FA at this time. Please disable two-factor authentication for this")
-	print("account and try again.")
-	sys.exit(1)'''
-
-
 
 
 
@@ -106,17 +83,7 @@ else:
 
 
 
-'''user_file = output_path.joinpath(timestr+"accounts.csv").open("w")
-user_writer = csv.DictWriter(user_file, fieldnames=["username", "url",
-													"url_profile_pic", "full_name", "userid", "is_verified",
-													"has_viewable_story", "has_public_story",
-													"biography", "media_count", "igtv_count", "followers", "followees"])
-user_writer.writeheader()'''
-
-
-
-
-
+## CSV Option
 post_file = output_path.joinpath(timestr+"posts.csv").open("w")
 post_writer = csv.DictWriter(post_file, fieldnames=["shortcode", "username", "date_utc", "url_thumbnail", "url_media",
 													"is_video", "is_sponsored", "hashtags", "mentions", "caption",
@@ -125,13 +92,8 @@ post_writer = csv.DictWriter(post_file, fieldnames=["shortcode", "username", "da
 post_writer.writeheader()
 
 
-
-
-#follower_graph = []
-#follow_usernames = set()
+## get stuff prepared
 user_ids = {}
-
-
 
 
 # start scraping
@@ -146,37 +108,7 @@ for username in usernames:
 
 	user_ids[username] = profile.userid
 
-	'''for follower in profile.get_followers():
-		pair = [follower.username, username]
-		follower_graph.append(pair)
-		follow_usernames.add(follower.username)
-		follow_usernames.add(username)
-		user_ids[follower.username] = follower.userid
 
-	for followee in profile.get_followees():
-		pair = [username, followee.username]
-		follower_graph.append(pair)
-		follow_usernames.add(followee.username)
-		follow_usernames.add(username)
-		user_ids[followee.username] = followee.userid
-
-	profile_info = {
-		"username": username,
-		"url": "https://instagram.com/%s" % username,
-		"url_profile_pic": profile.profile_pic_url,
-		"full_name": profile.full_name,
-		"userid": profile.userid,
-		"is_verified": "yes" if profile.is_verified else "no",
-		"has_viewable_story": "yes" if profile.has_viewable_story else "no",
-		"has_public_story": "yes" if profile.has_public_story else "no",
-		"biography": profile.biography,
-		"media_count": profile.mediacount,
-		"igtv_count": profile.igtvcount,
-		"followers": profile.followers,
-		"followees": profile.followees,
-	}
-
-	user_writer.writerow(profile_info)'''
 
 	processed = 1
 	for post in profile.get_posts():
@@ -214,14 +146,4 @@ for username in usernames:
 #user_file.close()
 post_file.close()
 
-print("Done scraping. Writing follower/followee graph.")
-'''with output_path.joinpath(timestr+"follower-network.gdf").open("w") as output:
-	output.write("nodedef>name VARCHAR,userid VARCHAR\n")
-	for username in follow_usernames:
-		output.write("%s,%s\n" % (username, user_ids[username]))
-
-	output.write("edgedef>from VARCHAR,to VARCHAR,directed BOOLEAN\n")
-	for pair in follower_graph:
-		output.write("%s,%s,true\n" % (pair[0], pair[1]))'''
-
-print("Done!")
+print("Done scraping!")
