@@ -26,15 +26,13 @@ riteaid
 sherwinwilliams
 progressive
 exxonmobil
-michaelscos
+michaelsstores
 att
-deanfoods
 southwestair
 txinstruments
 amfam
 hersheys
 dollargeneral
-danaher
 conagrafoodservice
 mcdonalds
 adp
@@ -74,7 +72,7 @@ supervalu_irl
 excelenergy
 target
 bestbuy
-generalmilles
+generalmills
 wellcare
 merck
 loweshomeimprovement
