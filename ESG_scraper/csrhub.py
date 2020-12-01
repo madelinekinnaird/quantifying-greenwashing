@@ -9,44 +9,72 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-url = 'https://www.csrhub.com/'
 
+## CSV prep
 output_path = pathlib.Path('../data/')
-
-
 ESG_file = output_path.joinpath("ESG.csv").open("w")
-ESG_writer = csv.DictWriter(ESG_file, fieldnames=["company", "overall", "energy_rating", "environment_rating", "resource_rating"])
-
+ESG_writer = csv.DictWriter(ESG_file, fieldnames=['company', 'overall','community', 'employees', 'environment', 'governance','community_dev','compensation','energy','board','product','diversity','environment','leadership','human_rights', 'training','resource', 'transparency'])
 ESG_writer.writeheader()
 
 
+def csr_scraper(span):
+    '''
+    function to specify ESG scores
+    '''
+    for i in range(0,len(span)):
+        content = span[i].text
+        ## select only the numeric values
+        if len(content) == 2 and content != '\n\n':
+            print(content)
+            ratings.append(content)
+
+        company = company_to_search
+        overall = ratings[-17]
+        community= ratings[-16]
+        employees= ratings[-15]
+        environment= ratings[-14]
+        governance= ratings[-13]
+        community_dev= ratings[-12]
+        compensation = ratings[-11]
+        energy= ratings[-10]
+        board = ratings[-9]
+        product= ratings[-8]
+        diversity = ratings[-7]
+        environment = ratings[-6]
+        leadership = ratings[-5]
+        human_rights = ratings[-4]
+        training = ratings[-3]
+        resource= ratings[-2]
+        transparency = ratings [-1]
+
+        return [company,overall,community,employees,environment,governance,community_dev,compensation,energy,board,product,diversity,environment,leadership,human_rights,training,resource,transparency]
+
+
+## get list of companies
 companies = open("batch.txt", "r")
+
+
 ## open driver
 driver = webdriver.Chrome('C:/Program Files/chromedriver.exe')
 wait = WebDriverWait(driver, 10)
-
-
-## go to URL
-driver.get(url)
-
-
-#
-▼
-
+url = 'https://www.csrhub.com/'
 
 
 ## login
+driver.get(url)
 driver.find_element_by_xpath('//*[@id="additional-menu"]/ul/li/a').click()
-login = driver.find_element_by_id('inputUsername')
-login.send_keys('EMAIL HERE')
+login = drivmadedliner.find_element_by_id('inputUsername')
+login.send_keysmk208('EMAIL HERE')
 password = driver.find_element_by_id('inputPassword')
 password.send_keys('PASSWORD HERE')
 sign_in = driver.find_element_by_xpath('//*[@id="modal-signin"]/div/div/div[3]/button[2]').click()
 
 
+scraped_data = []
+
+
 ## loop through companies
 for company_to_search in companies:
-
 
     time.sleep(1)
 
@@ -75,118 +103,19 @@ for company_to_search in companies:
     # Sleep for 3 seconds to load whole page
     time.sleep(1)
 
-    ## get page RESOURCE
+    ## get page html
     html_source = driver.page_source
+    soup = BeautifulSoup(html_source, "html.parser")
+    span = soup.select('span',{'class':'value'})
 
-    type(html_source)
-    want to find the word "The Board"
-    The next instance of <span class="value">
-    save the two characters after
+    rating = []
 
-
-
-
+    ## append to scraped data list
+    scraped_data.append(csr_scraper(span))
 
 
+scraped_data
 
-
-
-    ## locate table
-    #rating-section > div > div.company-profile__section_content > div > div > table
-    driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(15)').click()
-
-    ## click tab expansion
-    driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(15)').click()
-    driver.find_element(By.CSS_SELECTOR("#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(14) > td:nth-child(1) > a > i")).Click();
-    ## OVERALL CLIMATE RATING
-    overall_class = driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(22) > td:nth-child(5) > div > div > span > span')
-    overall = overall_class.text
-
-
-    ## ENERGY AND CLIMATE RATING
-    energy_class = driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(23) > td:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > div > div > span.pp.pp43 > span')
-    energy = energy_class.text
-
-
-    ## ENVIRONMENT POLICY AND REPORTING
-    environment_class = driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(24) > td:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > div > div > span.pp.pp43 > span')
-    environment = environment_class.text
-
-
-    ## RESOURCE MANAGEMENT
-    resource_class = driver.find_element_by_css_selector('#rating-section > div > div.company-profile__section_content > div > div > table > tbody > tr:nth-child(25) > td:nth-child(5) > div > table > tbody > tr > td:nth-child(2) > div > div > span.pp.pp43 > span')
-    resource = resource_class.text
-
-
-    company_data = {'company': company_to_search,'overall': overall, 'energy_rating': energy,'environment_rating': energy,'resource_rating': resource}
-
-
-    ESG_writer.writerow(company_data)
-
-
-
-#user_file.close()
-ESG_file.close()
-
-## table
-//*[@id="rating-section"]/div/div[2]/div/div/table
-
-
-company_data = {'company': company,'overall': overall_environment, 'energy_rating': energy,'environment_rating': energy,'resource_rating': resource}
-
-company_data = {'company': 'Tesla Motors, Inc.','overall_environment': 51, 'energy_rating': 57,'environment_rating': 47,'resource_rating': 51}
-
-## energy climate rating
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[15]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 4 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[19]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 5 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[23]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 6 columns
-
-## environment rating
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[16]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 4 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[20]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 5 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[24]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 6 columns
-
-## resource rating
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[17]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 4 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[21]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 5 columns
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[25]/td[5]/div/table/tbody/tr/td[2]/div/div/span[1]/span ## 6 columns
-
-
-
-company_data'
-## 1,1
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[14]/td[1]/a
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[18]/td[1]/a
-
-
-## 2,1
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[14]/td[2]/div/span[1]/span
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[18]/td[2]/div/span[1]/span
-
-## 2,2
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[18]/td[2]/div/span/span
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[22]/td[2]/div/span/span
-
-## 2,3
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[22]/td[2]/div/span/span
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[26]/td[2]/div/span/span
-## 2,4
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[26]/td[2]/div/span/span
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[30]/td[2]/div/span/span
-## 2,5
-----
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[34]/td[2]/div/span/span
-
-
-## 3,1
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[14]/td[3]/div/div/span/span
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[18]/td[3]/div/div/span/span
-
-## 3,2
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[18]/td[3]/div/div/span/span
-
-## 3,3
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[22]/td[3]/div/div/span/span
-
-## 3,4
-//*[@id="rating-section"]/div/div[2]/div/div/table/tbody/tr[26]/td[3]/div/div/span/span
+## turn list to dataframe then to CSV
+data = pd.DataFrame(scraped_data,columns=['company', 'overall','community', 'employees', 'environment', 'governance','community_dev','compensation','energy','board','product','diversity','environment','leadership','human_rights', 'training','resource', 'transparency'])
+data.to_csv("esg_ratings.csv",index=False)
