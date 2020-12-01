@@ -140,7 +140,6 @@ Visa International
 PayPal, Inc.
 Altaba, Inc.
 Hewlett Packard Enterprise Co
-Please enter 1 or more characters
 Tesla Motors, Inc.
 Apple Inc.
 Netflix, Inc.
@@ -177,4 +176,3 @@ AbbVie
 Comcast Corporation
 Procter & Gamble Company
 Ameriprise Financial Inc.
-Please enter 1 or more characters
