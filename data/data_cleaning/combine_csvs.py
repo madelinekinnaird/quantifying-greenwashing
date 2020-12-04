@@ -3,7 +3,7 @@ import os
 import glob
 
 ## set directory for data intake
-os.chdir("../data/instagram_posts")
+os.chdir("../data/all_instagram_posts")
 
 ## import
 extension = 'csv'

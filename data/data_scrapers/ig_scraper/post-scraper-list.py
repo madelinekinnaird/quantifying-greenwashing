@@ -15,10 +15,10 @@ import os.path
 instagram = instaloader.Instaloader(download_comments=False, download_pictures=False, download_videos=False,
 									download_video_thumbnails=False, save_metadata=False, max_connection_attempts=0)
 ## loading the session
-instagram.load_session_from_file('christy.kinnaird')
+instagram.load_session_from_file('datascraper1234')
 
 ## where to put the output files
-output_path = pathlib.Path('../data/IG')
+output_path = pathlib.Path('../../../data/all_instagram_posts')
 
 ## list of companies to scrape
 companies = open("batch.txt", "r")

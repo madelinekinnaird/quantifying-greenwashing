@@ -1,14 +1,15 @@
 import pandas as pd
 import numpy as np
 import os
-path = os.getcwd()
-print(path)
+
+#path = os.getcwd()
+#print(path)
 
 ## import both instagram and rating csvs
 df = pd.read_csv('..\instagram_data.csv')
 ratings = pd.read_csv('..\environment_ratings.csv')
 
-
+df.dtypes
 ## aggregations for all of the green words
 green_aggs = [np.sum, np.min, np.max, np.std, np.mean, np.median]
 
@@ -55,12 +56,19 @@ aggregations = {'shortcode' :'count',
                 'caption_emissions' : green_aggs,
                 'likely_automated' : [np.sum, np.std, np.mean]
     }
+df.dtypes
 
-
-df_agg = df.groupby('username').agg(aggregations)
+df_agg = df.groupby('username', as_index = False).agg(aggregations)
 
 
 output = df_agg.merge(ratings,on=['username'], how='inner')
 
 path_to_file = "../Data"
 output.to_csv("path_to_file, index = False, encoding="utf-8")
+
+
+
+import pandas as pd
+
+read_file = pd.read_csv (r'C:/Users/madel/projects/quantifying-greenwashing/data/Data')
+read_file.to_csv(r'C:/Users/madel/projects/quantifying-greenwashing/data/Data.csv', index=None)
