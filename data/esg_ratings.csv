@@ -1,351 +1,551 @@
 ,company,overall_rating,community_rating,employee_rating,environment_rating,governance_rating,overall_percentage,community_percentage,employee_percentage,environment_percentage,governance_percentage
-0,"Dick's Sporting Goods, Inc.
-",48,50,48,44,52,35,48,48,30,62
-1,"PNC Financial Services Group Inc.
-",62,61,59,70,58,94,83,82,91,84
-2,"DISH Network Corporation
-",48,50,48,49,47,36,46,47,41,30
-3,"The Western Union Company
-",50,50,49,53,49,47,46,49,53,40
-4,"Cummins, Inc.
-",63,62,62,71,56,95,85,86,92,80
-5,"Wal-Mart de Mexico S.A.
-",64,64,59,75,57,97,89,80,97,81
-6,"Whirlpool Corporation
-",59,55,60,62,57,84,66,84,76,83
-7,"Valero Energy Corporation
-",50,44,54,46,55,43,32,69,33,77
-8,"United Services Automobile Association
-",NA,56,79,NA,55,NA,68,99,NA,75
-9,"BURLINGTON STORES, INC.
-",54,59,55,52,50,64,76,71,51,48
-10,"Kellogg Company
-",61,64,57,67,57,92,89,77,87,83
-11,"Campbell Soup Company
-",56,54,64,51,51,63,51,51,49,51
-12,"Dollar Tree Stores, Inc.
-",56,54,64,51,51,63,51,51,49,51
-13,"Genuine Parts Company
-",56,54,64,51,51,63,51,51,49,51
-14,"Home Depot, Inc.
-",56,54,64,51,51,63,51,51,49,51
-15,"J. C. Penney Company, Inc.
-",51,44,50,56,54,52,31,53,60,70
-16,"Chevron Corp.
-",52,48,56,49,54,54,40,73,43,73
-17,"The Allstate Corporation
-",61,58,59,68,57,90,73,82,88,81
-18,"H. J. Heinz Company
-",51,58,53,36,62,53,73,66,16,90
-19,"Sears Holdings Corporation
-",56,54,64,51,51,63,51,51,49,51
-20,"Motorola, Inc.
-",56,54,64,51,51,63,51,51,49,51
-21,"The Boeing Company
-",57,53,52,69,52,79,57,60,89,58
-22,"Rite Aid Corporation
-",49,47,49,50,49,38,38,52,46,38
-23,"The Sherwin-Williams Company
-",55,53,52,61,54,71,56,63,74,70
-24,"Progressive Corporation
-",56,56,57,57,54,74,67,75,65,73
-25,"Exxon Mobil Corporation
-",49,44,52,47,53,39,31,61,36,66
-26,"Michaels Stores, Inc.
-",50,55,47,50,48,44,66,43,44,37
-27,"AT&T Inc.
-",56,54,64,51,51,63,51,51,49,51
-28,"Dean Foods Company
-",53,50,52,56,55,63,46,61,62,77
-29,"Southwest Airlines Co.
-",55,54,56,56,52,68,62,74,62,58
-30,"Texas Instruments Incorporated
-",56,54,64,51,51,63,51,51,49,51
-31,"The Hershey Company
-",56,54,64,51,51,63,51,51,49,51
-32,"Dollar General Corporation
-",56,54,64,51,51,63,51,51,49,51
-33,"Danaher Corp.
-",55,56,56,55,52,68,67,73,59,62
-34,"ConAgra Foods, Inc.
-",56,54,64,51,51,63,51,51,49,51
-35,"McDonald's Corporation
-",56,54,64,51,51,63,51,51,49,51
-36,"ADP
-",65,69,65,73,53,98,95,90,95,68
-37,"Northrop Grumman Corporation
-",64,60,60,73,60,96,81,82,95,88
-38,"Adobe Systems
-",56,54,64,51,51,63,51,51,49,51
-39,"Capital One Financial Corporation
-",59,52,57,73,53,87,55,75,94,64
-40,"Freddie Mac
-",48,50,66,25,57,35,46,92,81,46
-41,"HILTON WORLDWIDE HOLDINGS INC.
-",61,66,62,63,54,91,91,86,77,70
-42,"General Electric Company
-",58,59,54,66,53,83,76,68,84,66
-43,"Xerox Corporation
-",64,66,63,70,58,97,91,88,90,84
-44,"Booking Holdings
-",51,51,49,52,53,52,49,49,50,66
-45,"United Rentals, Inc.
-",57,56,58,60,53,78,67,80,70,68
-46,"Hanesbrands Inc.
-",56,58,48,63,52,73,73,45,79,62
-47,"Big Lots, Inc.
-",51,55,48,49,53,51,64,47,42,66
-48,"Nationwide Financial Services, Inc.
-",55,54,74,47,48,71,62,97,36,37
-49,"The Coca-Cola Company
-",63,64,61,70,57,95,88,85,90,83
-50,"Newell Rubbermaid Inc.
-",55,55,47,63,55,72,64,44,79,76
-51,"United Parcel Service, Inc.
-",60,60,54,69,54,87,79,67,90,70
-52,"Delta AirLines, Inc.
-",52,54,55,52,48,56,61,72,50,35
-53,"CarMax, Inc.
-",53,53,55,52,53,61,57,70,51,64
-54,"AGCO Corporation
-",56,54,52,60,55,72,61,63,72,77
-55,"Kroger Co.
-",60,58,61,67,54,89,75,85,85,73
-56,"Macy's, Inc.
-",58,58,57,59,57,81,73,76,68,82
-57,"Fifth Third Bank
-",58,55,54,65,57,82,64,67,82,82
-58,"Eversource Energy
-",63,65,59,69,56,94,91,82,89,80
-59,"Waste Management, Inc.
-",56,54,64,51,51,63,51,51,49,51
-60,"Baker Hughes Incorporated
-",57,57,54,63,52,78,71,67,78,62
-61,"Halliburton Company
-",56,58,54,58,54,75,74,69,66,71
-62,"National Oilwell Varco
-",53,52,49,59,52,62,55,52,70,60
-63,"Phillips 66
-",56,54,64,51,51,63,51,51,49,51
-64,"ConocoPhillips
-",59,57,59,59,59,84,72,81,70,86
-65,"CIGNA Corporation
-",56,54,64,51,51,63,51,51,49,51
-66,"Stanley Black & Decker Inc.
-",56,54,64,51,51,63,51,51,49,51
-67,"Aetna Inc.
-",56,54,64,51,51,63,51,51,49,51
-68,"UnitedHealth Group Incorporated
-",56,54,64,51,51,63,51,51,49,51
-69,"Supervalu Inc.
-",56,54,64,51,51,63,51,51,49,51
-70,"Xcel Energy Inc.
-",56,54,64,51,51,63,51,51,49,51
-71,"Target Corporation
-",56,54,64,51,51,63,51,51,49,51
-72,"Best Buy Co., Inc.
-",56,54,64,51,51,63,51,51,49,51
-73,"General Mills, Inc.
-",64,64,63,71,57,97,88,87,92,82
-74,"Wellcare Health Plans Inc.
-",52,48,55,45,60,54,42,70,32,88
-75,"Merck & Co., Inc.
-",64,61,68,70,57,97,82,93,91,81
-76,"Lowe's Companies, Inc.
-",60,62,56,65,56,88,84,73,82,80
-77,"Lithia Motors, Inc.
-",56,54,64,51,51,63,51,51,49,51
-78,"Regions Financial Corporation
-",56,54,64,51,51,63,51,51,49,51
-79,"Humana Inc.
-",56,54,64,51,51,63,51,51,49,51
-80,"Expedia Inc
-",56,54,64,51,51,63,51,51,49,51
-81,"Costco Wholesale Corporation
-",56,54,64,51,51,63,51,51,49,51
-82,"Microsoft Corporation
-",56,54,64,51,51,63,51,51,49,51
-83,"Nordstrom, Inc.
-",56,54,64,51,51,63,51,51,49,51
-84,"Amazon.com, Inc.
-",53,48,50,57,54,58,42,55,64,71
-85,"Starbucks Corporation
-",59,58,55,67,55,86,75,71,86,75
-86,"Hormel Foods Corporation
-",60,64,59,60,59,89,88,82,71,86
-87,"Walgreen Co.
-",56,54,64,51,51,63,51,51,49,51
-88,"Hertz Global Holdings Inc
-",56,54,64,51,51,63,51,51,49,51
-89,"Mattel, Inc.
-",56,54,64,51,51,63,51,51,49,51
-90,"The Walt Disney Company
-",62,61,59,68,57,92,81,80,88,82
-91,"Avnet, Inc.
-",57,51,53,67,53,77,49,65,86,68
-92,"Duke Energy Corporation
-",57,55,56,58,57,77,64,74,66,81
-93,"Bank of America Corporation
-",56,54,64,51,51,63,51,51,49,51
-94,"Staples, Inc.
-",56,54,64,51,51,63,51,51,49,51
-95,"Thermo Fisher Scientific
-",61,59,58,67,57,90,77,78,85,81
-96,"Northwestern Mutual
-",56,54,64,51,51,63,51,51,49,51
-97,"Rockwell Automation, Inc.
-",56,54,64,51,51,63,51,51,49,51
-98,"Harley-Davidson, Inc.
-",56,54,64,51,51,63,51,51,49,51
-99,"Toll Brothers, Inc.
-",56,54,64,51,51,63,51,51,49,51
-100,"Lockheed Martin Corporation
-",56,54,64,51,51,63,51,51,49,51
-101,"Marriott International, Inc.
-",56,54,64,51,51,63,51,51,49,51
-102,"Discovery Communications, Inc.
-",49,51,52,48,44,37,52,60,40,21
-103,"Verizon Communications Inc.
-",62,60,60,70,58,94,81,83,91,84
-104,"JP Morgan Chase & Co.
-",62,61,62,70,54,93,83,86,90,71
-105,"Pfizer Inc.
-",56,54,64,51,51,63,51,51,49,51
-106,"TIAA-CREF
-",56,54,64,51,51,63,51,51,49,51
-107,"Colgate-Palmolive Company
-",64,65,60,72,56,96,90,82,93,79
-108,"Ralph Lauren Corporation
-",58,58,56,61,55,81,74,73,74,75
-109,"Interpublic Group of Companies
-",56,55,56,60,54,76,64,74,70,73
-110,"Morgan Stanley
-",56,54,64,51,51,63,51,51,49,51
-111,"Foot Locker, Inc.
-",56,54,64,51,51,63,51,51,49,51
-112,"Estee Lauder Inc.
-",56,54,64,51,51,63,51,51,49,51
-113,"Bristol-Myers Squibb Company
-",56,54,64,51,51,63,51,51,49,51
-114,"The Goldman Sachs Group, Inc.
-",56,54,64,51,51,63,51,51,49,51
-115,"American Express
-",56,54,64,51,51,63,51,51,49,51
-116,"Penske Automotive Group, Inc.
-",56,54,64,51,51,63,51,51,49,51
-117,"Western Digital Corp.
-",56,54,64,51,51,63,51,51,49,51
-118,"CenturyLink
-",56,54,64,51,51,63,51,51,49,51
-119,"The ODP Corporation
-",54,54,54,58,49,65,61,67,66,38
-120,"Toys R Us
-",56,54,64,51,51,63,51,51,49,51
-121,"Caterpillar Inc.
-",56,54,64,51,51,63,51,51,49,51
-122,"Publix Super Markets, Inc.
-",56,54,64,51,51,63,51,51,49,51
-123,"CVS Caremark Corporation
-",56,54,64,51,51,63,51,51,49,51
-124,"Dillard's, Inc.
-",56,54,64,51,51,63,51,51,49,51
-125,"JetBlue Airways Corporation
-",56,54,64,51,51,63,51,51,49,51
-126,"Land O'Lakes
-",56,54,64,51,51,63,51,51,49,51
-127,"Advance Auto Parts, Inc.
-",56,54,64,51,51,63,51,51,49,51
-128,"Deere & Company
-",56,54,64,51,51,63,51,51,49,51
-129,"QUALCOMM Incorporated
-",58,58,54,68,52,83,73,68,87,60
-130,"Charles Schwab Corp.
-",56,56,55,61,50,73,67,70,73,48
-131,"Gap Inc.
-",63,65,59,70,56,94,91,80,91,80
-132,"Wells Fargo & Co.
-",59,55,55,72,53,86,63,70,94,64
-133,"Facebook
-",56,54,64,51,51,63,51,51,49,51
-134,"Oracle Corporation
-",59,57,52,73,52,86,71,61,95,62
-135,"Visa International
-",56,54,64,51,51,63,51,51,49,51
-136,"PayPal, Inc.
-",56,54,64,51,51,63,51,51,49,51
-137,"Altaba, Inc.
-",53,48,54,52,57,60,40,69,50,81
-138,"Hewlett Packard Enterprise Co
-",63,62,56,73,58,94,85,73,95,84
-139,"Tesla Motors, Inc.
-",48,51,45,54,43,36,52,33,57,21
-140,"Apple Inc.
-",60,56,52,76,54,89,68,60,97,73
-141,"Netflix, Inc.
-",48,51,48,51,43,35,50,47,46,20
-142,"NVIDIA Corporation
-",61,60,60,68,54,90,80,82,87,70
-143,"Intel Corporation
-",64,64,60,70,59,96,88,84,91,86
-144,"eBay Inc.
-",59,54,53,69,56,84,61,65,89,79
-145,"Cisco Systems, Inc.
-",64,61,61,74,56,96,83,84,95,78
-146,"Spirit AeroSystems Holdings Inc.
-",56,54,64,51,51,63,51,51,49,51
-147,"AutoZone, Inc.
-",54,58,48,56,53,64,73,45,60,64
-148,"FedEx Corporation
-",59,58,52,66,57,84,73,63,84,82
-149,"Liberty Mutual Group
-",49,43,66,40,48,38,29,91,22,34
-150,"The Goodyear Tire & Rubber Company
-",59,55,58,64,57,84,64,79,80,83
-151,"GameStop Corp.
-",53,55,51,57,49,61,63,58,63,38
-152,"D.R. Horton, Inc.
-",49,51,48,46,51,38,52,47,33,51
-153,"American Airlines
-",55,55,53,57,53,68,63,66,65,64
-154,"Whole Foods Market, Inc.
-",47,41,42,53,49,27,25,21,54,38
-155,"Bed Bath & Beyond
-",53,55,45,60,49,58,63,36,72,38
-156,"Amgen Inc.
-",61,62,57,68,57,92,84,77,88,83
-157,"Tyson Foods, Inc.
-",51,53,51,50,51,51,56,58,46,53
-158,"NIKE, Inc.
-",63,64,57,73,57,95,88,75,95,83
-159,"J.M. Smucker Co.
-",56,59,56,56,52,73,78,74,60,58
-160,"Ford Motor Company
-",59,58,56,65,55,84,73,73,82,76
-161,"DTE Energy Company
-",57,56,56,60,55,78,68,74,70,77
-162,"General Motors Corporation (GM)
-",62,61,59,67,59,92,83,80,85,86
-163,"International Business Machines Corporation (IBM)
-",60,62,61,67,50,89,84,85,85,48
-164,"MasterCard Inc.
-",63,59,58,74,59,95,76,79,96,86
-165,"PepsiCo, Inc.
-",60,62,57,63,58,89,84,77,79,84
-166,"Tractor Supply Company
-",55,57,49,61,53,71,71,52,73,66
-167,"Dell, Inc.
-",63,63,60,73,54,95,87,82,95,70
-168,"Oshkosh Corporation
-",56,57,52,60,54,74,70,61,70,70
-169,"Kohl's Corporation
-",56,54,52,62,53,73,62,61,76,68
-170,"Johnson & Johnson
-",66,64,65,77,56,98,88,90,98,78
-171,"AbbVie
-",63,62,64,68,59,96,85,89,88,86
-172,"Comcast Corporation
-",56,54,53,65,50,74,60,64,82,48
-173,"Procter & Gamble Company
-",62,62,61,67,58,94,85,85,85,85
-174,"Ameriprise Financial Inc.
-",57,56,58,59,56,79,67,78,70,78
+AbbVie,AbbVie,63,62,64,68,59,96,85,89,88,86
+ABC Arbitrage SA,ABC Arbitrage SA,50,44,54,44,60,47,32,68,29,87
+Abu Dhabi National Oil Company (ADNOC),Abu Dhabi National Oil Company (ADNOC),NA,61,NA,57,64,NA,82,NA,64,93
+Accenture Ltd.,Accenture Ltd.,63,61,58,76,54,95,83,79,97,70
+Actavis,Actavis,53,48,49,61,52,60,40,50,74,58
+adidas AG,adidas AG,67,68,65,79,55,99,94,90,99,75
+Adobe Systems,Adobe Systems,63,62,59,72,59,96,84,82,94,86
+ADP,ADP,65,69,65,73,53,98,95,90,95,68
+"Advance Auto Parts, Inc.","Advance Auto Parts, Inc.",51,52,49,51,50,48,55,50,49,44
+Aegon,Aegon,63,65,61,69,58,96,90,85,90,84
+AES Corporation,AES Corporation,59,57,58,61,61,86,72,80,74,88
+Aetna Inc.,Aetna Inc.,58,47,58,65,58,80,38,78,82,84
+AFLAC Incorporated,AFLAC Incorporated,60,55,56,67,60,88,64,74,85,87
+AGCO Corporation,AGCO Corporation,56,54,52,60,55,72,61,63,72,77
+Air Canada,Air Canada,52,54,48,55,51,56,61,45,58,55
+Airbnb Inc,Airbnb Inc,NA,57,76,NA,73,NA,72,98,NA,98
+Airbus,Airbus,61,59,57,72,52,90,77,77,94,58
+Akbank TAS,Akbank TAS,56,54,64,51,51,63,51,51,49,51
+Al Rajhi Bank,Al Rajhi Bank,54,55,54,53,54,65,64,68,53,70
+ALBERTSON'S INC.,ALBERTSON'S INC.,43,36,55,39,43,15,17,72,20,19
+"ALFA, S.A.B. de C.V.","ALFA, S.A.B. de C.V.",54,61,49,55,51,65,81,49,58,51
+Alimentation Couche-Tard Inc.,Alimentation Couche-Tard Inc.,50,46,47,55,50,44,36,41,57,44
+ALL NIPPON AIRWAYS COMPANY LIMITED,ALL NIPPON AIRWAYS COMPANY LIMITED,60,63,54,68,54,89,86,67,87,73
+Allianz SE,Allianz SE,66,65,63,76,58,98,90,88,98,85
+Almarai Trading Company Limited,Almarai Trading Company Limited,60,64,54,68,52,88,89,68,88,62
+Altice USA,Altice USA,49,49,47,51,49,40,43,44,48,40
+"America Movil, S.A.B. de C.V.","America Movil, S.A.B. de C.V.",61,63,53,72,52,90,86,64,94,60
+American Express,American Express,63,56,62,71,60,94,69,86,93,87
+Amgen Inc.,Amgen Inc.,61,62,57,68,57,92,84,77,88,83
+Anheuser-Busch InBev NV,Anheuser-Busch InBev NV,56,54,64,51,51,63,51,51,49,51
+Apple Inc.,Apple Inc.,60,56,52,76,54,89,68,60,97,73
+Aptiv,Aptiv,59,55,46,75,58,87,63,40,97,84
+Arab Bank PLC,Arab Bank PLC,59,63,59,57,59,86,86,82,64,87
+ArcelorMittal,ArcelorMittal,55,56,50,62,49,68,67,54,75,42
+Asian Paints (India) Ltd.,Asian Paints (India) Ltd.,56,59,46,68,50,76,77,40,88,46
+Assicurazioni Generali,Assicurazioni Generali,67,68,63,78,59,99,94,87,98,86
+AT&T Inc.,AT&T Inc.,62,60,57,72,55,92,81,77,93,76
+Atlantia,Atlantia,62,63,56,72,54,92,86,73,94,70
+Atlassian Corporation PLC,Atlassian Corporation PLC,47,45,51,45,49,30,34,58,31,38
+Audi AG,Audi AG,67,61,68,71,65,99,83,93,92,93
+"AutoZone, Inc.","AutoZone, Inc.",54,58,48,56,53,64,73,45,60,64
+Aviva,Aviva,64,63,55,77,57,96,86,70,98,82
+"Avnet, Inc.","Avnet, Inc.",57,51,53,67,53,77,49,65,86,68
+Axis Bank Limited,Axis Bank Limited,55,57,50,62,51,71,72,53,75,53
+Bajaj Finserv Ltd,Bajaj Finserv Ltd,54,54,48,64,47,64,60,45,81,32
+Baker Hughes Incorporated,Baker Hughes Incorporated,57,57,54,63,52,78,71,67,78,62
+Ball Corporation,Ball Corporation,61,62,59,68,52,90,85,80,88,58
+BANCO BILBAO VIZCAYA ARGENTARIA SA,BANCO BILBAO VIZCAYA ARGENTARIA SA,62,64,57,72,52,92,88,77,94,60
+Banco Bradesco S.A.,Banco Bradesco S.A.,64,67,58,78,52,97,93,79,98,62
+Banco do Brasil S.A.,Banco do Brasil S.A.,63,67,61,71,52,95,93,84,92,58
+Banco Santander S.A.,Banco Santander S.A.,63,64,57,76,52,95,89,77,97,60
+BanColombia S.A.,BanColombia S.A.,63,64,60,71,55,95,88,83,92,75
+Bank Audi SAL Saradar Group,Bank Audi SAL Saradar Group,60,61,60,57,61,87,83,83,63,88
+Bank Mandiri (Persero),Bank Mandiri (Persero),55,55,53,62,49,70,64,65,76,42
+BANK NEGARA INDONESIA,BANK NEGARA INDONESIA,58,62,57,61,52,82,85,75,73,58
+Bank of America Corporation,Bank of America Corporation,63,58,61,73,56,94,74,85,95,79
+Bank of Baroda,Bank of Baroda,49,47,49,55,44,40,38,52,59,22
+Bank of India,Bank of India,45,45,44,53,37,20,33,32,53,10
+Bank of Ireland,Bank of Ireland,53,50,50,57,53,59,46,54,63,68
+Bank Polska Kasa Opieki SA,Bank Polska Kasa Opieki SA,53,57,53,53,50,61,71,64,53,46
+Bankinter SA,Bankinter SA,61,62,58,70,53,91,84,78,91,68
+Banque Saudi Fransi,Banque Saudi Fransi,51,50,49,55,49,50,48,50,57,38
+Barclays,Barclays,62,61,59,72,54,93,82,82,94,73
+Basler Kantonalbank,Basler Kantonalbank,59,55,63,61,55,84,64,88,74,75
+Bass Pro Shops (Outdoor World) LLC,Bass Pro Shops (Outdoor World) LLC,NA,17,43,NA,28,NA,25,NA,NA,NA
+Bayer AG,Bayer AG,56,54,62,60,47,74,62,87,70,32
+BayWa,BayWa,70,72,77,70,61,97,98,91,88,97
+Bed Bath & Beyond,Bed Bath & Beyond,53,55,45,60,49,58,63,36,72,38
+Beiersdorf,Beiersdorf,66,69,60,76,56,98,95,84,97,78
+Bell Aliant,Bell Aliant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Best Buy Co., Inc.","Best Buy Co., Inc.",63,61,60,72,59,96,81,82,94,86
+"Big Lots, Inc.","Big Lots, Inc.",51,55,48,49,53,51,64,47,42,66
+"BJ's Wholesale Club, Inc.","BJ's Wholesale Club, Inc.",51,51,50,56,47,51,52,54,61,31
+"BlackRock, Inc.","BlackRock, Inc.",60,57,60,64,59,89,71,83,80,86
+Bloomberg,Bloomberg,70,62,76,78,62,85,98,98,90,85
+BMO Harris Bank,BMO Harris Bank,56,54,64,51,51,63,51,51,49,51
+BMW,BMW,63,66,60,77,47,95,92,84,98,32
+BNP Paribas,BNP Paribas,65,65,64,75,56,98,91,89,96,78
+Booking Holdings,Booking Holdings,51,51,49,52,53,52,49,49,50,66
+Bosch Limited,Bosch Limited,58,62,49,65,53,80,84,50,82,66
+Bouygues SA,Bouygues SA,61,67,57,70,49,91,93,76,90,40
+BRASKEM S/A,BRASKEM S/A,52,56,49,53,51,57,69,52,52,51
+Bridgestone Corporation,Bridgestone Corporation,62,66,60,66,54,92,91,83,85,70
+Bristol-Myers Squibb Company,Bristol-Myers Squibb Company,62,59,62,69,55,92,76,86,90,76
+British Sky Broadcasting Group PLC,British Sky Broadcasting Group PLC,65,58,59,74,65,97,73,82,96,93
+Brown-Forman Corporation,Brown-Forman Corporation,58,60,57,61,52,80,79,76,73,62
+Budweiser Brewing Company APAC Ltd,Budweiser Brewing Company APAC Ltd,53,54,46,59,53,62,60,39,70,66
+Burberry Group PLC,Burberry Group PLC,61,63,56,69,55,91,86,74,89,77
+Burger King Corporation,Burger King Corporation,NA,44,60,39,57,NA,32,82,20,81
+Caesars Entertainment Corp.,Caesars Entertainment Corp.,55,54,55,62,48,70,60,71,75,37
+Caixa Economica Federal,Caixa Economica Federal,63,68,70,54,62,95,94,95,55,90
+Caltex Australia Pty. Ltd.,Caltex Australia Pty. Ltd.,52,50,50,54,52,54,48,55,57,62
+Campbell Soup Company,Campbell Soup Company,63,69,60,66,58,95,95,83,85,84
+Canadian Imperial Bank of Commerce,Canadian Imperial Bank of Commerce,62,62,57,72,55,93,84,77,94,77
+"Canadian Tire Corporation, Limited","Canadian Tire Corporation, Limited",59,60,50,68,55,84,81,54,87,77
+Canon Inc,Canon Inc,60,59,56,71,52,88,76,73,92,60
+Capitaland ILEC Pte Ltd,Capitaland ILEC Pte Ltd,65,67,61,75,57,98,93,84,97,81
+Carhartt Inc,Carhartt Inc,NA,32,61,NA,53,NA,10,84,NA,64
+Carlsberg A/S,Carlsberg A/S,56,54,64,51,51,63,51,51,49,51
+"CarMax, Inc.","CarMax, Inc.",53,53,55,52,53,61,57,70,51,64
+Carnival Corporation & PLC,Carnival Corporation & PLC,56,54,64,51,51,63,51,51,49,51
+Carrefour,Carrefour,56,54,64,51,51,63,51,51,49,51
+Caterpillar Inc.,Caterpillar Inc.,61,59,60,66,58,91,78,82,84,84
+Cemex Sab De CV,Cemex Sab De CV,58,64,55,60,55,83,88,71,71,75
+CenturyLink,CenturyLink,56,54,64,51,51,63,51,51,49,51
+CHANEL SA,CHANEL SA,NA,46,62,79,56,NA,37,86,99,78
+Charles Schwab Corp.,Charles Schwab Corp.,56,54,64,51,51,63,51,51,49,51
+Chase Corp.,Chase Corp.,46,47,40,45,51,23,38,16,31,53
+Chevron Corp.,Chevron Corp.,52,48,56,49,54,54,40,73,43,73
+China Southern Airlines Co. Ltd.,China Southern Airlines Co. Ltd.,56,54,64,51,51,63,51,51,49,51
+China State Construction Engineering Corporation Limited,China State Construction Engineering Corporation Limited,56,54,64,51,51,63,51,51,49,51
+Chow Tai Fook Jewellery Group,Chow Tai Fook Jewellery Group,55,57,62,53,47,67,70,86,53,30
+Christian Dior,Christian Dior,61,59,64,66,55,91,76,90,85,77
+Chubb Corporation,Chubb Corporation,57,53,52,61,60,78,57,63,73,87
+CIGNA Corporation,CIGNA Corporation,61,55,59,70,57,90,64,81,90,82
+CJ CheilJedang Corp.,CJ CheilJedang Corp.,61,66,57,67,53,91,92,75,87,64
+Clif Bar,Clif Bar,NA,48,74,81,71,NA,41,97,99,97
+Cognizant Technology Solutions Corporation,Cognizant Technology Solutions Corporation,56,57,48,63,53,73,71,45,79,66
+Colgate-Palmolive Company,Colgate-Palmolive Company,64,65,60,72,56,96,90,82,93,79
+COLRUYT,COLRUYT,58,61,52,67,52,83,83,60,87,60
+Comcast Corporation,Comcast Corporation,56,54,53,65,50,74,60,64,82,48
+Commerzbank AG,Commerzbank AG,64,68,60,72,53,96,94,83,94,64
+Commonwealth Bank of Australia,Commonwealth Bank of Australia,60,61,55,70,52,88,82,70,91,62
+Compagnie Financiere Richemont SA,Compagnie Financiere Richemont SA,62,65,55,73,54,94,90,71,95,70
+"ConAgra Foods, Inc.","ConAgra Foods, Inc.",59,57,55,64,59,85,72,71,79,86
+Conair,Conair,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ConocoPhillips,ConocoPhillips,59,57,59,59,59,84,72,81,70,86
+CONTINENTAL AG,CONTINENTAL AG,59,63,56,66,50,85,87,74,85,48
+"Copart, Inc.","Copart, Inc.",45,45,39,47,49,21,34,14,37,40
+CORONA CORPORATION,CORONA CORPORATION,NA,45,52,22,30,NA,34,60,34,14
+Corp. Mapfre 'R',Corp. Mapfre 'R',64,65,63,73,55,97,91,88,95,77
+Corteva Agriscience,Corteva Agriscience,51,53,48,57,47,53,57,45,63,30
+Costco Wholesale Corporation,Costco Wholesale Corporation,53,51,48,62,50,61,49,45,77,44
+Credit Agricole SA,Credit Agricole SA,61,67,61,69,48,92,93,85,89,34
+Credit Mutuel,Credit Mutuel,NA,71,79,61,53,NA,96,99,73,66
+CRH PLC,CRH PLC,65,67,60,73,57,97,93,82,95,81
+Criteria CaixaCorp S.A.,Criteria CaixaCorp S.A.,67,70,62,76,58,99,96,87,98,84
+CSL Limited,CSL Limited,63,67,58,68,58,95,93,78,88,85
+Ctrip.com International Ltd. (ADS),Ctrip.com International Ltd. (ADS),41,42,35,47,37,27,37,10,27,22
+"Cummins, Inc.","Cummins, Inc.",63,62,62,71,56,95,85,86,92,80
+CVS Caremark Corporation,CVS Caremark Corporation,59,55,55,71,54,86,66,70,92,73
+"D.R. Horton, Inc.","D.R. Horton, Inc.",49,51,48,46,51,38,52,47,33,51
+Daimler AG,Daimler AG,61,66,63,65,51,91,91,88,83,51
+Danske Bank A/S,Danske Bank A/S,59,59,57,69,51,86,78,75,90,51
+DASSAULT AVIATION S.A.,DASSAULT AVIATION S.A.,55,59,51,61,48,70,76,59,74,34
+Dassault Systemes,Dassault Systemes,62,63,58,71,54,93,86,79,93,71
+DCC PLC,DCC PLC,56,58,48,63,52,73,74,48,79,60
+Dell Technologies Inc,Dell Technologies Inc,63,63,60,73,54,95,87,82,95,70
+Deloitte,Deloitte,67,68,76,64,63,99,94,98,79,91
+"Delta AirLines, Inc.","Delta AirLines, Inc.",52,54,55,52,48,56,61,72,50,35
+DENTSU INCORPORATED,DENTSU INCORPORATED,60,61,52,73,51,88,82,60,95,53
+Deutsche Bank AG,Deutsche Bank AG,59,60,58,66,49,83,81,80,84,42
+Deutsche Post AG,Deutsche Post AG,63,67,60,72,53,96,93,83,93,66
+Deutsche Telekom AG,Deutsche Telekom AG,58,59,55,67,50,82,76,72,85,48
+"DexCom, Inc.","DexCom, Inc.",51,55,50,47,53,50,63,55,36,64
+Diageo,Diageo,68,73,65,77,56,99,97,90,98,79
+"Dick's Sporting Goods, Inc.","Dick's Sporting Goods, Inc.",48,50,48,44,52,35,48,48,30,62
+"Dillard's, Inc.","Dillard's, Inc.",51,54,48,50,52,50,61,47,44,62
+DISH Network Corporation,DISH Network Corporation,48,50,48,49,47,36,46,47,41,30
+Doctor's Associates Inc (Subway Restaurants),Doctor's Associates Inc (Subway Restaurants),NA,55,52,45,49,NA,63,60,31,40
+DocuSign Inc,DocuSign Inc,48,51,44,46,50,32,49,30,33,44
+"Dole Food Co., Inc.","Dole Food Co., Inc.",NA,48,69,NA,58,NA,41,94,NA,84
+"Dollar Tree Stores, Inc.","Dollar Tree Stores, Inc.",47,51,43,48,45,27,52,28,39,26
+"Dominion Resources, Inc.","Dominion Resources, Inc.",60,63,58,63,57,89,86,80,78,82
+Domino's Pizza LLC,Domino's Pizza LLC,51,52,50,46,56,49,54,53,33,80
+Doosan Corporation,Doosan Corporation,62,61,64,64,57,92,81,89,81,83
+Dover Corporation,Dover Corporation,53,53,47,58,51,58,57,41,66,53
+DP World Limited,DP World Limited,51,48,44,59,50,49,42,29,68,46
+Dr Pepper Snapple Group,Dr Pepper Snapple Group,64,66,57,70,61,96,92,77,90,88
+DTE Energy Company,DTE Energy Company,57,56,56,60,55,78,68,74,70,77
+Duke Energy Corporation,Duke Energy Corporation,57,55,56,58,57,77,64,74,66,81
+Dunkin' Brands Group,Dunkin' Brands Group,58,54,53,66,56,81,62,65,84,80
+E*TRADE Financial Corp.,E*TRADE Financial Corp.,50,53,52,46,51,46,57,61,33,53
+eBay Inc.,eBay Inc.,59,54,53,69,56,84,61,65,89,79
+EDF,EDF,62,64,57,72,52,92,89,76,93,58
+Eiffage,Eiffage,63,67,58,71,53,94,93,80,92,64
+"El Corte Ingles, S.A.","El Corte Ingles, S.A.",NA,54,55,NA,52,NA,61,72,NA,60
+Electronic Arts Inc.,Electronic Arts Inc.,56,57,54,59,53,74,72,68,68,64
+EMAAR PROPERTIES PJSC,EMAAR PROPERTIES PJSC,48,48,41,49,54,34,40,19,43,73
+"E-MART CO.,LTD","E-MART CO.,LTD",51,50,48,56,49,50,48,45,60,42
+Emera Inc,Emera Inc,55,55,49,62,52,69,63,49,76,62
+Emirates National Oil Company,Emirates National Oil Company,NA,NA,65,NA,46,NA,NA,90,NA,27
+EMIRATES NBD PJSC,EMIRATES NBD PJSC,59,62,55,68,50,85,84,71,87,46
+Emirates Telecommunications Corporation,Emirates Telecommunications Corporation,58,60,55,61,54,81,81,71,74,70
+Empire Bancorp Inc,Empire Bancorp Inc,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ENGIE,ENGIE,60,59,60,64,55,87,78,82,79,75
+ENI - ENTE NAZIONALE IDROCARBURI,ENI - ENTE NAZIONALE IDROCARBURI,54,54,57,55,51,66,60,77,58,51
+Enterprise Rent-A-Car Company,Enterprise Rent-A-Car Company,64,56,75,58,66,96,68,97,66,94
+EQUINOR ASA,EQUINOR ASA,57,54,60,63,50,78,62,82,77,46
+ESPN,ESPN,NA,37,61,NA,56,NA,18,85,NA,79
+Estee Lauder Inc.,Estee Lauder Inc.,62,60,56,75,53,92,80,73,96,66
+Clinique VI,Clinique VI,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Eversource Energy,Eversource Energy,56,54,64,51,51,63,51,51,49,51
+Evonik Industries AG,Evonik Industries AG,56,54,64,51,51,63,51,51,49,51
+"Experian Group, Ltd","Experian Group, Ltd",62,60,61,70,55,93,79,85,91,75
+"Express Scripts, Inc.","Express Scripts, Inc.",52,43,53,55,57,57,30,64,57,82
+Extra Space,Extra Space,48,46,45,53,46,32,35,36,53,27
+Exxon Mobil Corporation,Exxon Mobil Corporation,49,44,52,47,53,39,31,61,36,66
+F.N.B. Corporation,F.N.B. Corporation,52,51,49,48,59,54,50,52,38,87
+Facebook,Facebook,55,50,53,65,49,69,48,64,82,38
+"Fast Retailing Co, Ltd","Fast Retailing Co, Ltd",60,63,54,68,52,87,86,67,87,58
+Fastighets AB Balder,Fastighets AB Balder,42,37,42,50,38,12,19,22,44,11
+FedEx Corporation,FedEx Corporation,59,58,52,66,57,84,73,63,84,82
+Ferguson PLC,Ferguson PLC,58,56,51,67,54,80,68,59,87,71
+Ferrari SpA,Ferrari SpA,56,60,50,64,47,73,79,55,80,31
+Ferrovial S.A.,Ferrovial S.A.,67,73,62,79,53,99,97,86,99,66
+Fidelity Investments,Fidelity Investments,NA,70,77,NA,62,NA,95,98,NA,90
+Fifth Third Bank,Fifth Third Bank,58,55,54,65,57,82,64,67,82,82
+First Republic Bank,First Republic Bank,50,54,47,49,51,46,60,41,42,51
+FLEX FOODS LIMITED,FLEX FOODS LIMITED,NA,50,68,67,51,NA,47,93,87,51
+"Foot Locker, Inc.","Foot Locker, Inc.",51,53,49,47,55,49,56,49,36,75
+Ford Motor Company,Ford Motor Company,59,58,56,65,55,84,73,73,82,76
+Forever 21 Inc,Forever 21 Inc,NA,33,41,NA,39,NA,12,20,NA,12
+Fortum OYJ,Fortum OYJ,63,67,60,68,57,95,93,84,88,83
+Freddie Mac,Freddie Mac,48,50,66,25,57,35,46,92,81,46
+GameStop Corp.,GameStop Corp.,53,55,51,57,49,61,63,58,63,38
+Gap Inc.,Gap Inc.,63,65,59,70,56,94,91,80,91,80
+Garmin International Inc.,Garmin International Inc.,49,51,45,49,50,38,50,33,43,48
+Gazprom,Gazprom,57,59,50,65,54,80,77,54,82,73
+GEBERIT AG,GEBERIT AG,67,72,59,77,59,99,97,80,98,86
+GEICO,GEICO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+General Electric Company,General Electric Company,58,59,54,66,53,83,76,68,84,66
+"General Mills, Inc.","General Mills, Inc.",64,64,63,71,57,97,88,87,92,82
+General Motors Corporation (GM),General Motors Corporation (GM),62,61,59,67,59,92,83,80,85,86
+Genting Bhd,Genting Bhd,58,61,58,60,54,83,81,78,70,73
+Globe Life Inc,Globe Life Inc,50,52,46,50,53,46,53,40,46,68
+"Google, Inc.","Google, Inc.",60,57,56,76,49,89,70,74,97,42
+Gree Inc,Gree Inc,38,41,34,42,35,26,26,26,30,46
+Groupe SEB,Groupe SEB,64,69,64,69,53,96,95,89,89,68
+"Grupo Bimbo, S.A. de C.V.","Grupo Bimbo, S.A. de C.V.",59,65,51,66,53,85,90,58,84,66
+"Grupo Financiero Banorte, S.A. de C.V.","Grupo Financiero Banorte, S.A. de C.V.",62,67,55,72,53,93,93,70,94,64
+Gucci,Gucci,NA,67,71,NA,66,NA,93,95,NA,94
+H. J. Heinz Company,H. J. Heinz Company,51,58,53,36,62,53,73,66,16,90
+Haci Omer Sabanci Holding A.S.,Haci Omer Sabanci Holding A.S.,58,65,54,62,49,80,90,67,75,38
+"Hainan Airlines Co., Ltd.","Hainan Airlines Co., Ltd.",58,70,50,60,53,83,96,53,72,66
+"Harley-Davidson, Inc.","Harley-Davidson, Inc.",54,54,48,61,53,67,62,48,73,66
+"Hasbro, Inc.","Hasbro, Inc.",65,67,65,69,59,98,93,90,89,87
+HCA Inc,HCA Inc,52,54,49,54,52,57,61,49,57,60
+HDFC Bank Ltd.,HDFC Bank Ltd.,56,54,64,51,51,63,51,51,49,51
+Heineken NV,Heineken NV,62,66,57,70,54,93,91,76,90,70
+HENKEL KGAA,HENKEL KGAA,67,71,63,76,55,99,97,87,98,76
+Hennes & Mauritz,Hennes & Mauritz,63,64,55,75,55,94,88,72,96,75
+Hewlett Packard Enterprise Co,Hewlett Packard Enterprise Co,63,62,56,73,58,94,85,73,95,84
+HILTON WORLDWIDE HOLDINGS INC.,HILTON WORLDWIDE HOLDINGS INC.,61,66,62,63,54,91,91,86,77,70
+Hobby Lobby,Hobby Lobby,NA,29,45,31,42,NA,34,11,17,16
+"Hologic, Inc.","Hologic, Inc.",53,55,53,54,50,60,64,66,55,46
+"Home Depot, Inc.","Home Depot, Inc.",59,58,57,67,54,86,73,75,86,70
+Honda Motor Company Limited,Honda Motor Company Limited,60,64,54,69,51,88,89,68,89,51
+Hormel Foods Corporation,Hormel Foods Corporation,60,64,59,60,59,89,88,82,71,86
+Huawei Technologies,Huawei Technologies,49,51,52,46,46,37,50,63,35,28
+Humana Inc.,Humana Inc.,61,60,57,69,56,91,79,77,89,78
+Huntington Bancshares Incorporated,Huntington Bancshares Incorporated,58,55,58,59,58,81,66,79,70,85
+Huntsman International LLC,Huntsman International LLC,57,58,57,58,56,79,73,75,66,80
+Hyundai Mobis,Hyundai Mobis,64,65,58,74,56,96,90,80,95,79
+Hyundai Motor Co.,Hyundai Motor Co.,60,60,58,66,53,87,81,78,84,66
+"HZ HIK-VISION DIGITAL TECH. CO.,LTD.","HZ HIK-VISION DIGITAL TECH. CO.,LTD.",53,53,48,63,48,63,59,48,79,37
+Iberdrola Renovables S.A.,Iberdrola Renovables S.A.,NA,36,66,24,42,NA,16,91,18,16
+ICICI Bank Ltd,ICICI Bank Ltd,52,53,42,67,44,57,56,22,86,21
+IKEA Group,IKEA Group,67,67,74,62,66,99,93,97,77,94
+Indian Bank Ltd.,Indian Bank Ltd.,NA,54,44,55,53,NA,61,32,57,68
+Inditex SA,Inditex SA,65,68,59,77,54,98,94,81,98,70
+IndusInd Bank Limited,IndusInd Bank Limited,54,51,49,61,52,64,49,49,74,58
+Infosys Technologies,Infosys Technologies,62,64,54,77,49,92,88,68,98,42
+"INNER MONGOLIA YILI INDUSTRIAL GROUP CO., LTD.","INNER MONGOLIA YILI INDUSTRIAL GROUP CO., LTD.",57,62,53,58,54,77,84,65,67,70
+Intel Corporation,Intel Corporation,64,64,60,70,59,96,88,84,91,86
+Intercontinental Hotels Group,Intercontinental Hotels Group,59,62,59,64,52,86,84,82,81,62
+International Business Machines Corporation (IBM),International Business Machines Corporation (IBM),60,62,61,67,50,89,84,85,85,48
+Interpublic Group of Companies,Interpublic Group of Companies,56,55,56,60,54,76,64,74,70,73
+Intesa Sanpaolo,Intesa Sanpaolo,63,68,61,71,52,95,94,84,92,62
+Intuit Inc.,Intuit Inc.,63,61,57,73,58,94,83,76,95,84
+Invesco Ltd.,Invesco Ltd.,54,53,50,61,50,65,56,55,73,48
+ITC Holdings Corp,ITC Holdings Corp,50,44,47,60,48,47,32,44,71,37
+J.M. Smucker Co.,J.M. Smucker Co.,56,59,56,56,52,73,78,74,60,58
+Jacobs Douwe Egberts BV,Jacobs Douwe Egberts BV,NA,56,58,NA,54,NA,68,79,NA,71
+"JAND, Inc.","JAND, Inc.",66,68,68,51,78,98,94,93,48,94
+Japan Airlines,Japan Airlines,56,59,50,63,50,74,77,53,78,46
+Johnson & Johnson,Johnson & Johnson,66,64,65,77,56,98,88,90,98,78
+JSC HALYK BANK,JSC HALYK BANK,NA,42,44,48,30,NA,28,29,39,28
+JSW Steel Limited,JSW Steel Limited,56,62,49,59,52,73,84,49,68,62
+JUUL Labs Inc,JUUL Labs Inc,NA,NA,80,NA,48,NA,NA,99,NA,35
+KB Financial Group Inc.,KB Financial Group Inc.,61,64,55,69,56,92,88,70,89,80
+Kering Group,Kering Group,67,70,64,77,54,99,96,89,98,71
+Kia Motors Corporation,Kia Motors Corporation,59,60,48,71,53,84,79,48,92,64
+Kimberly-Clark Corporation,Kimberly-Clark Corporation,61,65,63,61,54,90,90,88,74,70
+KLA Corp,KLA Corp,58,57,55,65,52,80,71,70,83,62
+KOC Holding A.S.,KOC Holding A.S.,60,65,59,63,53,88,91,81,77,68
+"Koch Industries, Inc.","Koch Industries, Inc.",36,23,58,24,40,79,14,10,NA,NA
+Kohl's Corporation,Kohl's Corporation,56,54,52,62,53,73,62,61,76,68
+Koninklijke DSM,Koninklijke DSM,62,65,59,68,54,92,90,81,88,73
+Koninklijke Philips Electronics Na,Koninklijke Philips Electronics Na,65,66,60,76,55,97,91,84,97,76
+Kotak Mahindra Bank Ltd,Kotak Mahindra Bank Ltd,55,58,55,56,51,70,75,71,61,53
+"Krispy Kreme Doughnuts, Inc.","Krispy Kreme Doughnuts, Inc.",NA,18,47,NA,41,NA,43,NA,16,NA
+Kroger Co.,Kroger Co.,60,58,61,67,54,89,75,85,85,73
+KUBOTA CORPORATION,KUBOTA CORPORATION,63,65,56,76,53,95,90,73,97,68
+Kuwait Finance House KSC,Kuwait Finance House KSC,56,54,64,51,51,63,51,51,49,51
+L Brands,L Brands,55,56,52,61,50,70,67,61,73,44
+"L.L. Bean, Inc.","L.L. Bean, Inc.",NA,41,68,NA,56,NA,25,93,NA,79
+Land O'Lakes,Land O'Lakes,48,48,73,19,59,34,41,96,86,41
+LEGO,LEGO,NA,74,75,79,76,NA,98,97,99,99
+Leonardo S.p.A,Leonardo S.p.A,60,60,58,71,50,89,80,79,92,46
+Levi Strauss & Co.,Levi Strauss & Co.,62,63,58,72,54,93,87,78,94,71
+LG Electronics Inc.,LG Electronics Inc.,63,69,56,74,52,95,95,73,96,62
+"Liberbank, S.A.","Liberbank, S.A.",NA,40,53,30,43,NA,24,64,10,19
+Liberty Mutual Group,Liberty Mutual Group,49,43,66,40,48,38,29,91,22,34
+"LIC CO.,LTD.","LIC CO.,LTD.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Lidl Dienstleistung GmbH & Co KG (Lidl),Lidl Dienstleistung GmbH & Co KG (Lidl),53,53,59,48,53,59,56,80,39,64
+LINDE PUBLIC LIMITED COMPANY,LINDE PUBLIC LIMITED COMPANY,61,64,63,63,55,91,88,88,78,76
+LinkedIn Corp.,LinkedIn Corp.,63,54,74,62,64,96,60,97,77,92
+Lloyds TSB Group Plc,Lloyds TSB Group Plc,63,63,59,75,54,95,87,80,96,73
+Lockheed Martin Corporation,Lockheed Martin Corporation,62,61,61,67,60,94,81,84,86,88
+L'Oreal,L'Oreal,71,73,69,82,59,98,94,86,98,99
+"Lotte Shopping Co., Ltd.","Lotte Shopping Co., Ltd.",53,55,47,62,48,62,63,43,76,35
+"Lowe's Companies, Inc.","Lowe's Companies, Inc.",60,62,56,65,56,88,84,73,82,80
+Lukoil Holdings,Lukoil Holdings,51,50,48,54,53,52,46,45,55,66
+LVMH,LVMH,62,63,60,71,53,93,86,82,92,68
+Lyft Inc,Lyft Inc,55,53,50,64,51,70,56,53,79,55
+Macquarie Group,Macquarie Group,58,58,55,66,52,82,75,72,85,62
+"Macy's, Inc.","Macy's, Inc.",58,58,57,59,57,81,73,76,68,82
+Magazine Luiza S.A.,Magazine Luiza S.A.,53,57,49,58,49,62,70,50,66,42
+Mahindra & Mahindra Ltd,Mahindra & Mahindra Ltd,61,66,54,72,51,91,92,67,94,55
+MAKITA CORPORATION,MAKITA CORPORATION,52,55,41,62,46,53,63,20,77,26
+Malayan Banking Bhd,Malayan Banking Bhd,63,66,62,67,58,96,91,86,87,84
+Manulife Financial Corporation,Manulife Financial Corporation,60,57,54,69,58,88,70,68,90,84
+Markel Corporation,Markel Corporation,48,48,45,51,48,34,40,36,49,37
+Marks and Spencer Group p.l.c.,Marks and Spencer Group p.l.c.,64,67,57,76,55,97,93,75,97,77
+"Marriott International, Inc.","Marriott International, Inc.",56,53,55,63,52,75,56,72,78,62
+Marshalls PLC,Marshalls PLC,60,61,55,69,54,89,82,70,89,73
+MasterCard Inc.,MasterCard Inc.,63,59,58,74,59,95,76,79,96,86
+"Mattel, Inc.","Mattel, Inc.",55,54,53,59,54,71,60,65,68,71
+MAZDA MOTOR CORPORATION,MAZDA MOTOR CORPORATION,63,66,59,70,54,94,91,82,91,70
+McCain Foods Limited,McCain Foods Limited,NA,60,61,38,41,NA,80,85,19,16
+"McCormick & Company, Incorporated","McCormick & Company, Incorporated",56,54,64,51,51,63,51,51,49,51
+McDonald's Corporation,McDonald's Corporation,59,58,50,72,52,84,75,53,94,62
+McKinsey & Company,McKinsey & Company,68,65,80,66,60,99,90,99,83,88
+Mediolanum,Mediolanum,59,60,64,55,60,87,80,89,58,88
+Mercadolibre Inc.,Mercadolibre Inc.,55,55,47,62,54,70,63,41,77,70
+"MetLife, Inc.","MetLife, Inc.",59,55,56,68,55,85,64,73,87,77
+MGM Resorts International,MGM Resorts International,55,54,56,58,51,69,61,74,66,51
+Microsoft Corporation,Microsoft Corporation,67,66,63,76,62,99,91,87,98,90
+Mitsubishi Corp.,Mitsubishi Corp.,57,60,50,64,53,79,79,53,79,64
+Mitsubishi Motors Corp.,Mitsubishi Motors Corp.,55,58,50,65,45,70,75,55,82,25
+Morgan Stanley,Morgan Stanley,59,58,57,67,54,86,73,75,86,73
+National Australia Bank Limited,National Australia Bank Limited,64,63,59,78,54,97,86,82,98,73
+National Bank of Canada,National Bank of Canada,59,57,57,68,54,87,72,76,87,71
+National Bank Of Kuwait,National Bank Of Kuwait,52,51,51,55,52,57,50,58,59,58
+National Grid plc,National Grid plc,63,65,58,71,56,95,91,79,93,79
+National Westminster Bank Plc (NatWest),National Westminster Bank Plc (NatWest),NA,74,72,62,50,NA,98,96,76,48
+"Nationwide Financial Services, Inc.","Nationwide Financial Services, Inc.",55,54,74,47,48,71,62,97,36,37
+Naver Corporation,Naver Corporation,55,55,47,65,50,69,64,44,82,46
+NBC Universal,NBC Universal,NA,NA,62,NA,68,NA,NA,86,NA,96
+NEC Corporation,NEC Corporation,64,69,59,76,51,97,95,80,97,55
+Nedbank Group Limited,Nedbank Group Limited,61,64,57,72,50,91,88,77,94,48
+Neste Oil OYJ,Neste Oil OYJ,62,60,62,66,58,92,79,86,84,84
+Nestle,Nestle,64,65,62,70,59,97,91,86,90,86
+net mobile AG,net mobile AG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Netease.com Inc. ADS,Netease.com Inc. ADS,51,56,44,54,49,49,67,29,55,42
+"Netflix, Inc.","Netflix, Inc.",48,51,48,51,43,35,50,47,46,20
+Newell Rubbermaid Inc.,Newell Rubbermaid Inc.,55,55,47,63,55,72,64,44,79,76
+NEXON Co Ltd,NEXON Co Ltd,48,52,41,50,50,35,53,19,44,48
+"NIKE, Inc.","NIKE, Inc.",63,64,57,73,57,95,88,75,95,83
+NINTENDO CO LTD,NINTENDO CO LTD,56,54,49,68,50,74,60,50,87,44
+Nippon Paint,Nippon Paint,53,51,45,62,50,58,52,36,75,46
+NIPPON TELEGRAPH AND TELEPHONE CORPORATI,NIPPON TELEGRAPH AND TELEPHONE CORPORATI,64,66,60,76,52,97,91,83,97,58
+Nokia Corporation,Nokia Corporation,63,63,60,72,55,95,86,84,94,76
+"Nordstrom, Inc.","Nordstrom, Inc.",60,57,56,68,58,89,72,73,87,84
+Northrop Grumman Corporation,Northrop Grumman Corporation,64,60,60,73,60,96,81,82,95,88
+Northwestern Mutual,Northwestern Mutual,NA,52,78,NA,53,NA,54,99,NA,64
+Novartis AG,Novartis AG,62,62,63,72,50,93,85,87,93,46
+Novo Nordisk,Novo Nordisk,66,66,64,76,56,98,91,89,98,79
+NVIDIA Corporation,NVIDIA Corporation,61,60,60,68,54,90,80,82,87,70
+Okta Inc,Okta Inc,49,51,45,47,53,39,52,36,36,64
+Old Mutual PLC,Old Mutual PLC,61,62,56,72,54,92,84,73,94,70
+OLYMPUS CORPORATION,OLYMPUS CORPORATION,58,58,50,75,47,83,75,55,97,32
+OMV AG,OMV AG,57,54,60,59,53,77,62,83,69,66
+"ONEOK, Inc.","ONEOK, Inc.",59,59,57,62,56,84,76,75,76,78
+Oracle Corporation,Oracle Corporation,59,57,52,73,52,86,71,61,95,62
+Orange S.A.,Orange S.A.,62,67,59,72,47,92,93,82,93,30
+Orkla ASA,Orkla ASA,66,74,63,72,55,98,98,87,94,76
+Orsted,Orsted,62,63,56,72,56,94,87,74,94,78
+Oshkosh Corporation,Oshkosh Corporation,56,57,52,60,54,74,70,61,70,70
+Panasonic Corporation,Panasonic Corporation,60,59,50,75,51,87,78,55,97,55
+"Paychex, Inc.","Paychex, Inc.",50,51,51,49,51,47,52,57,42,51
+Paycom Software Inc,Paycom Software Inc,50,54,49,46,51,44,60,52,33,53
+"PayPal, Inc.","PayPal, Inc.",57,57,51,66,52,78,72,58,84,60
+"Penske Automotive Group, Inc.","Penske Automotive Group, Inc.",51,50,51,52,51,51,48,59,50,55
+"PepsiCo, Inc.","PepsiCo, Inc.",60,62,57,63,58,89,84,77,79,84
+"Pepsi-Cola Products Philippines, Inc","Pepsi-Cola Products Philippines, Inc",NA,19,31,NA,22,NA,NA,NA,NA,17
+Pernod Ricard,Pernod Ricard,66,69,60,77,57,98,95,82,98,82
+Petroleos Mexicanos,Petroleos Mexicanos,53,51,60,53,50,63,49,84,53,46
+Petroliam Nasional,Petroliam Nasional,NA,47,49,77,22,NA,38,49,98,38
+"PetSmart, Inc.","PetSmart, Inc.",65,63,71,60,69,98,86,95,70,96
+Pfizer Inc.,Pfizer Inc.,59,58,56,70,51,86,73,73,90,51
+Phillips 66,Phillips 66,52,46,63,46,56,58,36,87,33,78
+Pirelli & Co,Pirelli & Co,64,68,62,70,54,96,94,86,91,71
+Pizza Hut,Pizza Hut,NA,32,43,NA,39,NA,11,26,NA,12
+POSTAL SAVINGS BANK of CHINA Co Ltd,POSTAL SAVINGS BANK of CHINA Co Ltd,54,54,48,61,50,63,61,48,73,48
+Poste Italiane,Poste Italiane,58,60,55,61,55,81,81,70,73,75
+Prada,Prada,55,49,65,53,54,71,45,90,54,70
+Procter & Gamble Company,Procter & Gamble Company,62,62,61,67,58,94,85,85,85,85
+Progressive Corporation,Progressive Corporation,56,56,57,57,54,74,67,75,65,73
+"Prudential Financial, Inc.","Prudential Financial, Inc.",60,56,57,71,55,89,67,77,93,77
+PSA Peugeot Citroen,PSA Peugeot Citroen,64,69,58,75,52,97,95,79,97,62
+PT Telekomunikasi Indonesia,PT Telekomunikasi Indonesia,59,60,55,69,49,84,79,70,89,42
+PTT CHEMICAL PUBLIC COMPANY LIMITED,PTT CHEMICAL PUBLIC COMPANY LIMITED,65,61,67,79,50,97,82,92,99,48
+"Public Storage, Inc.","Public Storage, Inc.",52,50,48,60,49,56,46,48,70,42
+Publicis Groupe SA,Publicis Groupe SA,65,65,64,72,57,97,91,89,94,82
+"Publix Super Markets, Inc.","Publix Super Markets, Inc.",52,41,64,53,51,57,26,89,52,55
+QUALCOMM Incorporated,QUALCOMM Incorporated,58,58,54,68,52,83,73,68,87,60
+Rabobank Nederland N.V.,Rabobank Nederland N.V.,71,65,77,80,61,90,98,99,89,90
+Rakuten Inc,Rakuten Inc,50,53,44,58,45,47,57,29,66,25
+Ralph Lauren Corporation,Ralph Lauren Corporation,58,58,56,61,55,81,74,73,74,75
+Recreational Equipment Inc.,Recreational Equipment Inc.,64,60,69,64,62,96,81,94,80,90
+Red Bull,Red Bull,NA,52,66,NA,62,NA,55,91,NA,90
+Renault SA,Renault SA,56,54,64,51,51,63,51,51,49,51
+Repsol YPF,Repsol YPF,56,55,58,57,55,76,63,78,63,75
+RHB Capital Berhad,RHB Capital Berhad,57,59,55,60,54,79,78,70,72,73
+RingCentral Inc,RingCentral Inc,48,51,46,44,51,32,52,40,28,53
+Rite Aid Corporation,Rite Aid Corporation,49,47,49,50,49,38,38,52,46,38
+Riyad Bank,Riyad Bank,56,54,64,51,51,63,51,51,49,51
+"Rockwell Automation, Inc.","Rockwell Automation, Inc.",59,60,60,64,52,86,81,83,79,62
+"ROKU, INC.","ROKU, INC.",46,47,41,45,52,25,38,19,31,58
+Rolex,Rolex,NA,NA,80,NA,69,NA,NA,99,NA,96
+Rosneft Oil Ojsc,Rosneft Oil Ojsc,55,58,49,63,50,72,73,50,79,46
+Royal Bank of Canada,Royal Bank of Canada,63,62,57,75,54,94,84,77,97,70
+Royal Bank of Scotland Group,Royal Bank of Scotland Group,61,57,60,72,54,92,70,82,93,73
+Royal Dutch Shell,Royal Dutch Shell,51,48,56,47,52,48,41,74,37,60
+Saci Falabella,Saci Falabella,58,59,55,63,53,81,76,71,77,66
+Saint James's Place PLC,Saint James's Place PLC,57,58,52,64,54,79,74,61,80,71
+Saipem SpA,Saipem SpA,62,58,71,62,59,94,73,95,77,86
+Sampo OYJ,Sampo OYJ,56,54,64,51,51,63,51,51,49,51
+"Samsung SDS Co., Ltd.","Samsung SDS Co., Ltd.",54,56,42,64,50,63,67,21,80,44
+Sanofi,Sanofi,62,62,62,72,52,94,84,86,93,58
+Santos Ltd,Santos Ltd,56,54,64,51,51,63,51,51,49,51
+Sartorius AG,Sartorius AG,61,65,59,64,54,90,90,81,80,73
+Sberbank Rossia,Sberbank Rossia,56,60,53,61,48,73,80,65,74,35
+Schaeffler Technologies GmbH & Co KG,Schaeffler Technologies GmbH & Co KG,53,47,53,58,51,58,39,64,66,51
+Schneider Electric,Schneider Electric,67,68,65,77,55,99,94,90,98,75
+Scor SE,Scor SE,60,60,57,70,50,87,79,75,90,46
+Scottish & Southern Energy PLC,Scottish & Southern Energy PLC,62,67,54,72,55,94,93,69,93,77
+Seagate Technology,Seagate Technology,57,61,56,61,50,79,82,73,74,44
+Bombardier Inc,Bombardier Inc,56,54,64,51,51,63,51,51,49,51
+Square Inc,Square Inc,49,52,49,48,47,39,53,49,39,30
+BLOM Bank SAL,BLOM Bank SAL,NA,52,44,48,36,NA,54,30,40,54
+BOK Financial Corporaion,BOK Financial Corporaion,56,54,64,51,51,63,51,51,49,51
+RAMSAY HEALTH CARE LIMITED,RAMSAY HEALTH CARE LIMITED,58,62,53,65,51,82,84,65,83,51
+MITSUI CHEMICALS INCORPORATED,MITSUI CHEMICALS INCORPORATED,60,66,55,64,54,88,92,71,80,70
+RTL Group SA,RTL Group SA,56,52,58,59,53,73,55,80,68,68
+LG Uplus,LG Uplus,55,55,46,69,47,70,66,37,89,32
+Alpha Bank SA,Alpha Bank SA,54,53,56,57,49,65,56,73,65,40
+"Xylem, Inc.","Xylem, Inc.",62,63,55,74,53,93,87,71,95,68
+IHI Corporaition ,IHI Corporaition ,56,54,64,51,51,63,51,51,49,51
+Seazen Group Ltd.,Seazen Group Ltd.,49,51,41,52,51,39,50,19,50,51
+Sempra Energy,Sempra Energy,56,54,64,51,51,63,51,51,49,51
+"ServiceNow, Inc.","ServiceNow, Inc.",52,52,42,58,53,54,55,21,66,66
+Shimano Inc,Shimano Inc,56,54,64,51,51,63,51,51,49,51
+Shionogi Limited,Shionogi Limited,60,64,51,70,53,88,88,58,91,64
+Shiseido Company Limited,Shiseido Company Limited,65,70,63,70,56,97,96,88,91,79
+Siemens AG,Siemens AG,64,64,60,76,54,97,89,82,97,71
+"Simon Property Group, Inc.","Simon Property Group, Inc.",56,54,64,51,51,63,51,51,49,51
+Sinclair Oil Corporation,Sinclair Oil Corporation,NA,18,52,NA,33,NA,61,NA,NA,NA
+SK Energy Company Limited,SK Energy Company Limited,56,54,64,51,51,63,51,51,49,51
+Smurfit Kappa Group plc,Smurfit Kappa Group plc,58,61,51,69,51,83,83,58,89,55
+Snap Inc,Snap Inc,56,54,64,51,51,63,51,51,49,51
+S-Oil Corporation,S-Oil Corporation,56,64,53,60,48,76,89,66,71,34
+Sompo Japan Insurance,Sompo Japan Insurance,56,54,64,51,51,63,51,51,49,51
+Sony Corporation,Sony Corporation,64,60,58,80,56,97,81,78,99,80
+Spectrum,Spectrum,NA,NA,55,NA,31,NA,NA,70,NA,NA
+Spirit AeroSystems Holdings Inc.,Spirit AeroSystems Holdings Inc.,47,51,49,42,47,28,49,52,26,30
+Spotify Technology SA,Spotify Technology SA,50,43,58,46,54,45,29,79,33,70
+"SS&C Technologies Holdings, Inc.","SS&C Technologies Holdings, Inc.",46,49,42,46,47,24,43,24,33,30
+Standard Bank Group Ltd.,Standard Bank Group Ltd.,56,54,64,51,51,63,51,51,49,51
+Stanley Black & Decker Inc.,Stanley Black & Decker Inc.,58,60,53,65,54,83,81,66,82,71
+Starbucks Corporation,Starbucks Corporation,59,58,55,67,55,86,75,71,86,75
+State Grid,State Grid,NA,74,68,77,59,NA,98,93,98,86
+Stryker,Stryker,55,53,57,58,53,72,57,76,67,68
+Svenska Cellulosa B,Svenska Cellulosa B,63,66,63,68,55,95,92,88,88,77
+Swiss Prime Site AG,Swiss Prime Site AG,53,55,49,61,47,62,63,49,74,32
+Sysmex,Sysmex,66,72,60,78,54,98,97,82,98,73
+T&D HOLDINGS INCORPORATED,T&D HOLDINGS INCORPORATED,62,66,57,69,55,93,92,76,89,76
+"Tapestry, Inc","Tapestry, Inc",56,57,53,63,51,76,70,64,77,53
+Target Corporation,Target Corporation,62,60,60,71,57,94,81,82,92,83
+Tata Consultancy Services,Tata Consultancy Services,63,64,56,78,51,95,89,74,98,51
+Tata Group,Tata Group,NA,55,67,76,45,NA,63,92,97,25
+Tata Motors Limited,Tata Motors Limited,58,59,50,72,50,83,77,54,94,48
+TC Energy Corporation,TC Energy Corporation,56,57,52,60,53,73,70,63,72,64
+Teleperformance,Teleperformance,59,61,55,65,54,85,82,70,82,70
+TELUS Corporation,TELUS Corporation,56,54,64,51,51,63,51,51,49,51
+TERNIUM S.A.,TERNIUM S.A.,57,56,62,55,57,80,69,87,59,82
+"Tesla Motors, Inc.","Tesla Motors, Inc.",56,54,64,51,51,63,51,51,49,51
+Thai Beverage PLC,Thai Beverage PLC,66,76,65,65,58,98,99,91,83,84
+The Bank of East Asia,The Bank of East Asia,56,59,54,63,49,76,76,67,79,38
+The Bank of Nova Scotia,The Bank of Nova Scotia,56,54,64,51,51,63,51,51,49,51
+The Boeing Company,The Boeing Company,57,53,52,69,52,79,57,60,89,58
+The Clorox Company,The Clorox Company,56,54,64,51,51,63,51,51,49,51
+"The Fresh Market, Inc.","The Fresh Market, Inc.",56,54,64,51,51,63,51,51,49,51
+The Goodyear Tire & Rubber Company,The Goodyear Tire & Rubber Company,59,55,58,64,57,84,64,79,80,83
+The Hershey Company,The Hershey Company,64,62,63,68,61,96,84,87,88,88
+"The Kiyo Bank, Ltd.","The Kiyo Bank, Ltd.",36,42,37,31,35,27,11,11,27,20
+The Kraft Heinz Company,The Kraft Heinz Company,52,52,52,57,48,58,54,61,63,35
+The ODP Corporation,The ODP Corporation,54,54,54,58,49,65,61,67,66,38
+"The Toho Bank, Ltd.","The Toho Bank, Ltd.",NA,32,NA,41,34,NA,10,NA,23,10
+"The Travelers Companies, Inc.","The Travelers Companies, Inc.",58,53,57,61,58,80,57,75,73,84
+The Walt Disney Company,The Walt Disney Company,62,61,59,68,57,92,81,80,88,82
+The Western Union Company,The Western Union Company,50,50,49,53,49,47,46,49,53,40
+"The Williams Companies, Inc.","The Williams Companies, Inc.",53,55,53,53,52,61,64,64,52,58
+TIAA-CREF,TIAA-CREF,67,61,77,73,57,99,83,98,94,81
+Tianjin Marine Shipping Co Ltd,Tianjin Marine Shipping Co Ltd,NA,51,NA,36,53,NA,49,NA,16,66
+Tokyo Gas Company Limited,Tokyo Gas Company Limited,62,67,58,68,54,93,93,79,88,71
+Toppan Printing Company Limited,Toppan Printing Company Limited,61,65,56,72,49,91,91,73,93,42
+TOWNGAS CHINA CO. LTD.,TOWNGAS CHINA CO. LTD.,53,52,47,59,51,58,53,44,68,51
+Toyota Motor Corp.,Toyota Motor Corp.,60,63,60,68,49,89,86,82,87,38
+Toyota Tsusho UK Ltd,Toyota Tsusho UK Ltd,58,59,50,67,54,82,77,55,86,70
+Truist Financial Corporation,Truist Financial Corporation,55,56,57,53,54,69,67,75,53,73
+Turkish Airlines,Turkish Airlines,NA,NA,52,NA,38,NA,NA,61,NA,11
+Turkiye Halk Bankasi AS,Turkiye Halk Bankasi AS,51,52,47,56,49,52,53,44,62,42
+Turkiye Vakiflar Bankasi T.A.O.,Turkiye Vakiflar Bankasi T.A.O.,55,54,59,58,50,71,62,82,67,46
+Twilio Inc,Twilio Inc,47,48,45,47,48,29,41,36,36,37
+"Tyson Foods, Inc.","Tyson Foods, Inc.",51,53,51,50,51,51,56,58,46,53
+U.S. Bancorp,U.S. Bancorp,60,57,57,67,58,89,70,77,85,84
+UAL Corporation,UAL Corporation,62,58,71,60,61,94,74,95,71,89
+Uber,Uber,48,46,45,51,48,32,36,34,46,34
+Unicaja,Unicaja,NA,55,66,33,53,NA,63,91,14,64
+UniCredito Italiano S.p.A.,UniCredito Italiano S.p.A.,61,60,56,73,52,90,81,74,95,58
+"United Parcel Service, Inc.","United Parcel Service, Inc.",60,60,54,69,54,87,79,67,90,70
+UnitedHealth Group Incorporated,UnitedHealth Group Incorporated,60,53,55,71,59,89,56,72,92,86
+UNUM Group,UNUM Group,57,56,53,61,59,80,67,66,74,87
+Vale,Vale,54,55,52,61,47,65,64,61,73,31
+Valeo SA,Valeo SA,67,69,59,79,57,99,95,82,99,83
+"Ventas, Inc.","Ventas, Inc.",60,59,54,69,58,90,78,68,89,85
+Verisk Analytics Inc.,Verisk Analytics Inc.,59,61,56,64,54,85,81,73,81,71
+Vertex Pharmaceuticals Incorporated,Vertex Pharmaceuticals Incorporated,52,57,54,49,50,57,70,69,42,44
+ViacomCBS Inc.,ViacomCBS Inc.,52,53,52,54,49,56,59,61,57,42
+Vingroup Joint Stock Company,Vingroup Joint Stock Company,NA,55,37,60,44,NA,63,11,70,21
+"VMware, Inc.","VMware, Inc.",62,61,56,73,57,94,82,74,94,82
+Walgreen Co.,Walgreen Co.,60,55,56,68,58,87,64,73,88,84
+"Wal-Mart Stores, Inc.","Wal-Mart Stores, Inc.",57,55,54,66,52,79,64,68,84,60
+Waste Connections Inc.,Waste Connections Inc.,48,48,46,49,50,35,40,40,42,48
+Weatherford International Ltd.,Weatherford International Ltd.,54,46,54,59,55,65,37,67,68,77
+WESFARMERS LIMITED,WESFARMERS LIMITED,62,66,57,67,56,92,91,75,85,79
+Wheelock And Company Limited,Wheelock And Company Limited,51,49,46,60,48,51,45,37,70,37
+Wolters Kluwer,Wolters Kluwer,63,67,56,74,53,95,93,73,95,66
+"Workday, Inc.","Workday, Inc.",58,59,56,64,53,83,77,73,80,68
+X5 Retail Group NV,X5 Retail Group NV,53,54,53,54,52,62,62,65,55,60
+Xerox Corporation,Xerox Corporation,64,66,63,70,58,97,91,88,90,84
+"XPO Logistics, Inc.","XPO Logistics, Inc.",50,50,46,54,51,47,48,40,55,55
+"Yango Group Co., Ltd.","Yango Group Co., Ltd.",52,59,43,56,51,57,78,28,62,51
+Yara International ASA,Yara International ASA,60,63,61,61,56,89,86,84,73,79
+Zain Group,Zain Group,62,70,70,53,59,94,96,95,52,87
+Zimmer Biomet,Zimmer Biomet,53,48,61,49,53,58,42,85,41,68
+Zoetis Inc.,Zoetis Inc.,53,56,50,53,52,59,68,55,52,58
