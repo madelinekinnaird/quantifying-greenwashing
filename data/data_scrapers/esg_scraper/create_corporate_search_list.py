@@ -11,7 +11,6 @@ import pandas as pd
 import numpy as np
 
 
-
 ## import company key and set column
 df = pd.read_csv('../../../data/company_key.csv')
 column = 'company'

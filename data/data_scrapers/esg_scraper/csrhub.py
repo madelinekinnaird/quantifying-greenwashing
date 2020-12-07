@@ -12,9 +12,11 @@ import pandas as pd
 import os
 
 
-## get list of companies
-companies = open("batch.txt", "r")
 
+## get list of companies
+cdf = pd.read_csv('../../../data/company_key.csv')
+column = 'company'
+companies = df[column]
 
 
 ## open driver
