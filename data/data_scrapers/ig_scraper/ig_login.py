@@ -4,6 +4,11 @@ from sqlite3 import connect
 
 from instaloader import ConnectionException, Instaloader
 
+'''
+To add user and account info, make sure you are currently logged into specified account on firefox.
+'''
+
+
 ## firefox cookie database location
 FIREFOXCOOKIEFILE = glob(expanduser("C:/Users/madel\AppData/Roaming/Mozilla/Firefox/Profiles/4zse1jac.default-release/cookies.sqlite"))[0]
 
