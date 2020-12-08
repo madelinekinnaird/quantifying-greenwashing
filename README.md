@@ -3,7 +3,7 @@
 ### The aim of this project is to analyze the language and behaviours of Fortune 500 companies around [greenwashing](https://www.sustainablejungle.com/sustainable-living/what-is-greenwashing/). 
 
 ## Selected Companies
-The list of companies was comprised of every Fortune 500 company with a verified instagram account as of November 2020. The list of 180 companies can be found [here](https://github.com/madelinekinnaird/quantifying-greenwashing/blob/main/ig_scraper/batch.txt).
+The list of companies was comprised of every Global 2000 company with a verified instagram account as of Deceember 2020. The list of companies can be found [here](https://github.com/madelinekinnaird/quantifying-greenwashing/blob/main/ig_scraper/batch.txt).
 
 ## Instagram Metrics
 The [Instagram scraper](https://github.com/madelinekinnaird/quantifying-greenwashing/blob/main/ig_scraper/post-scraper-list.py) built for this project was built using the extraordinary [Instaloader](https://instaloader.github.io/) package. The fifteen attributes below were collected for each companies Instagram feeds. 
