@@ -19,14 +19,15 @@ instagram = instaloader.Instaloader(download_comments=False, download_pictures=F
 ## loading the session created from ig_login.py!
 ## gtown_datascraper
 ## gtown_datascraper1
-## gtown_datascraper2
-## gtown_datascraper3
+## gtown_datascraper2 (Dec 7 evening)
+## gtown_datascraper3 (Dec 8 midday)
 ## aggie_datascraper
-## aggie_datascraper1
+## aggie_datascraper1 (Dec 7 evening)
+## aggie_datascraper2 (Dec 8 evening) DONT USE
 ## datascraper1234
 ## ivakinnaird
 
-instagram.load_session_from_file('aggie_datascraper1')
+instagram.load_session_from_file('aggie_datascraper3')
 
 ## where to put the output files
 output_path = pathlib.Path('../../../data/all_instagram_posts')
@@ -73,7 +74,7 @@ for company in companies:
 		for post in takewhile(lambda p: p.date > UNTIL, dropwhile(lambda p: p.date > SINCE, posts)):
 
 			print(post.date)
-			print("...scraping info for post %s" % post.shortcode)
+			print("...scraping info for post %s, %s" % (post.shortcode, company))
 
 
 
@@ -91,7 +92,7 @@ for company in companies:
 				"video_length": post.video_duration if post.is_video else 0,
 				"likes": post.likes,
 				"comments": post.comments,
-				"location_name": post.location.name if post.location else "",
+				"location_name": (post.location.name).encode('utf-8', errors='ignore') if post.location else "",
 				"location_latlong": " ".join((str(post.location.lat), str(post.location.lng))) if post.location else ""
 				}
 

@@ -50,7 +50,6 @@
 187,187,Bradesco,bradesco,Banco Bradesco S.A.,Verified
 192,192,Banco do Brasil,bancodobrasil,Banco do Brasil S.A.,Verified
 194,194,Santander,santanderbankus,Banco Santander S.A.,Verified
-195,195,Bancolombia,bancolombia,BanColombia S.A.,Verified
 198,198,Bank Audi,bankaudi,Bank Audi SAL Saradar Group,Verified
 202,202,Bank Mandiri,bankmandiri,Bank Mandiri (Persero),Verified
 203,203,Bank Negara Indonesia,bni46,BANK NEGARA INDONESIA,Verified
@@ -65,7 +64,6 @@
 236,236,Basler Kantonalbank,baslerkantonalbank,Basler Kantonalbank,Verified
 237,237,Bass Pro Shop,bassproshops,Bass Pro Shops (Outdoor World) LLC,Verified
 241,241,Bayer,fcbayern,Bayer AG,Verified
-242,242,BayWa,baywatchmovie,BayWa,Verified
 246,246,BED BATH & BEYOND,bedbathandbeyond,Bed Bath & Beyond,Verified
 247,247,NIVEA,thisisnivea,Beiersdorf,Verified
 252,252,Bell,bellahadid,Bell Aliant,Verified
@@ -89,7 +87,6 @@
 306,306,Burberry,burberry,Burberry Group PLC,Verified
 308,308,Burger King,burgerking,Burger King Corporation,Verified
 314,314,Caesars Entertainment,caesarsentertainment,Caesars Entertainment Corp.,Verified
-315,315,Caixa,caixa,Caixa Economica Federal,Verified
 316,316,Caltex Australia,caltexaustralia,Caltex Australia Pty. Ltd.,Verified
 317,317,Campbell Soup,campbellsoupco,Campbell Soup Company,Verified
 320,320,CIBC,cibc,Canadian Imperial Bank of Commerce,Verified
@@ -106,19 +103,15 @@
 360,360,CenturyLink,centurylink,CenturyLink,Verified
 364,364,Chanel,chanelofficial,CHANEL SA,Verified
 367,367,Charles Schwab,charlesschwab,Charles Schwab Corp.,Verified
-370,370,Chase,severinbro7,Chase Corp.,Verified
+370,370,Chase,chase,Chase Corp.,Verified
 374,374,Chevron,chevron,Chevron Corp.,Verified
 431,431,China Southern Airlines,china_southern,China Southern Airlines Co. Ltd.,Verified
 432,432,China State Construction Engineering,china_state_construction,China State Construction Engineering Corporation Limited,Verified
-443,443,Chow Tai Fook Jewellery,chowtaifookjewellery,Chow Tai Fook Jewellery Group,Verified
 444,444,Dior,dior,Christian Dior,Verified
-445,445,Chubb,nchubb27,Chubb Corporation,Verified
-451,451,Cigna,cignature_j9,CIGNA Corporation,Verified
-462,462,CJ Cheiljedang,cjcheiljedang,CJ CheilJedang Corp.,Verified
+451,451,Cigna,cignatogether,CIGNA Corporation,Verified
 467,467,Clif Bar,clifbar,Clif Bar,Verified
 478,478,Cognizant,cognizant,Cognizant Technology Solutions Corporation,Verified
 480,480,Colgate-Palmolive,colgatepalmoliveco,Colgate-Palmolive Company,Verified
-482,482,Colruyt,colruyt_be,COLRUYT,Verified
 483,483,Xfinity,xfinity,Comcast Corporation,Verified
 484,484,Comcast,comcast,Comcast Corporation,Verified
 487,487,Commerzbank,commerzbank,Commerzbank AG,Verified
@@ -130,32 +123,21 @@
 501,501,Continental,continental_tire,CONTINENTAL AG,Verified
 503,503,Copart,copart1982,"Copart, Inc.",Verified
 506,506,Corona,corona,CORONA CORPORATION,Verified
-507,507,Mapfre,mapfre,Corp. Mapfre 'R',Verified
 508,508,Corteva,corteva,Corteva Agriscience,Verified
 512,512,Costco Wholesale,costco_aus,Costco Wholesale Corporation,Verified
-520,520,Credit Agricole,creditagricolepca,Credit Agricole SA,Verified
-521,521,Crédit Mutuel,creditmutuel,Credit Mutuel,Verified
-524,524,CRH,chrissyteigen,CRH PLC,Verified
-525,525,CaixaBank,caixabank,Criteria CaixaCorp S.A.,Verified
-530,530,CSL,californiahighwaypatrol,CSL Limited,Verified
-533,533,ctrip.com,tripcom.sg,Ctrip.com International Ltd. (ADS),Verified
+533,533,ctrip.com,trip,Ctrip.com International Ltd. (ADS),Verified
 535,535,Cummins,cummins,"Cummins, Inc.",Verified
 536,536,CVS Health,cvshealth,CVS Caremark Corporation,Verified
 537,537,D.R. Horton,drhorton,"D.R. Horton, Inc.",Verified
 543,543,Mercedes-Benz,mercedesbenz,Daimler AG,Verified
 544,544,Daimler,daimler_ag,Daimler AG,Verified
-552,552,Danske Bank,danskebankfi,Danske Bank A/S,Verified
-555,555,Dassault Aviation,dassaultaviation,DASSAULT AVIATION S.A.,Verified
 556,556,Dassault Systemes,dassaultsystemes,Dassault Systemes,Verified
-561,561,DCC,dccmakingtheteam,DCC PLC,Verified
-566,566,Dell Technologies,delltech,Dell Technologies Inc,Verified
+566,566,Dell Technologies,dell,Dell Technologies Inc,Verified
 567,567,Deloitte,deloitte,Deloitte,Verified
 568,568,Delta Air Lines,delta,"Delta AirLines, Inc.",Verified
 571,571,Dentsu,dentsuintl,DENTSU INCORPORATED,Verified
 572,572,Deutsche Bank,deutschebank,Deutsche Bank AG,Verified
 576,576,DHL,dhl_global,Deutsche Post AG,Verified
-577,577,Deutsche Post,deutschepost,Deutsche Post AG,Verified
-578,578,Deutsche Telekom,deutschetelekom,Deutsche Telekom AG,Verified
 580,580,DexCom,dexcom,"DexCom, Inc.",Verified
 581,581,Diageo,diageo,Diageo,Verified
 583,583,DICK'S SPORTING GOODS,dickssportinggoods,"Dick's Sporting Goods, Inc.",Verified
@@ -167,8 +149,7 @@
 595,595,Dollar Tree,dollartree,"Dollar Tree Stores, Inc.",Verified
 597,597,Dominion Energy,dominionenergy,"Dominion Resources, Inc.",Verified
 598,598,Domino's Pizza,dominos,Domino's Pizza LLC,Verified
-600,600,Doosan,doosanbears.1982,Doosan Corporation,Verified
-601,601,Dover,doverstreetmarketnewyork,Dover Corporation,Verified
+600,600,Doosan,doosanmta,Doosan Corporation,Verified
 603,603,DP World,dpworld,DP World Limited,Verified
 604,604,Keurig,keurig,Dr Pepper Snapple Group,Verified
 606,606,DTE Energy,dte_energy_official,DTE Energy Company,Verified
@@ -176,19 +157,11 @@
 610,610,Dunkin',dunkin,Dunkin' Brands Group,Verified
 613,613,E-Trade Financial,etrade_financial,E*TRADE Financial Corp.,Verified
 621,621,eBay,ebay,eBay Inc.,Verified
-624,624,EDF,edgarramirez25,EDF,Verified
 629,629,Eiffage,eiffagegroupe,Eiffage,Verified
-631,631,El Corte Inglés,elcorteingles,"El Corte Ingles, S.A.",Verified
 635,635,Electronic Arts,ea,Electronic Arts Inc.,Verified
 637,637,Emaar Properties,emaarproperties,EMAAR PROPERTIES PJSC,Verified
-638,638,E-mart,_bem20,"E-MART CO.,LTD",Verified
-639,639,Emera,emeraldgordonwulf,Emera Inc,Verified
 641,641,Emirates,emirates,Emirates National Oil Company,Verified
-642,642,Emirates NBD,emiratesnbd_ae,EMIRATES NBD PJSC,Verified
-643,643,Etisalat,etisalat,Emirates Telecommunications Corporation,Verified
-644,644,Empire,empire,Empire Bancorp Inc,Verified
 649,649,ENGIE,engie,ENGIE,Verified
-650,650,Eni,eniola_badmus,ENI - ENTE NAZIONALE IDROCARBURI,Verified
 654,654,Enterprise,enterprise,Enterprise Rent-A-Car Company,Verified
 659,659,Equinor,equinor,EQUINOR ASA,Verified
 665,665,ESPN,espn,ESPN,Verified
@@ -203,7 +176,6 @@
 683,683,F.N.B.,fnbsa,F.N.B. Corporation,Verified
 684,684,Facebook,facebook,Facebook,Verified
 690,690,UNIQLO,uniqlo,"Fast Retailing Co, Ltd",Verified
-693,693,Fastighets Balder,fastighets_ab_balder,Fastighets AB Balder,Verified
 694,694,FedEx,fedex,FedEx Corporation,Verified
 695,695,Ferguson,fergusonshowrooms,Ferguson PLC,Verified
 696,696,Ferrari,ferrari,Ferrari SpA,Verified
@@ -215,7 +187,6 @@
 723,723,Foot Locker,footlocker,"Foot Locker, Inc.",Verified
 724,724,Ford Motor,ford,Ford Motor Company,Verified
 725,725,Forever 21,forever21,Forever 21 Inc,Verified
-733,733,Fortum,fortunefeimster,Fortum OYJ,Verified
 741,741,Freddie Mac,freddiemaccorp,Freddie Mac,Verified
 753,753,GAMESTOP,gamestop,GameStop Corp.,Verified
 754,754,GAP,gap,Gap Inc.,Verified
