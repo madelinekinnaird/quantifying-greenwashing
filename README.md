@@ -1,9 +1,13 @@
 <img src="https://www.natureinabox.com.my/wp-content/uploads/2014/10/greenwashing-1024x355.png" width="500">
 
-### The aim of this project is to analyze the language and behaviours of Fortune 500 companies around [greenwashing](https://www.sustainablejungle.com/sustainable-living/what-is-greenwashing/). 
+### The aim of this project is to analyze the language and behaviours of [Global 2000](https://www.forbes.com/global2000/#3acf0a88335d) companies around [greenwashing](https://www.sustainablejungle.com/sustainable-living/what-is-greenwashing/). 
 
-## Selected Companies
-The list of companies was comprised of every Global 2000 company with a verified instagram account as of Deceember 2020. The list of companies can be found [here](https://github.com/madelinekinnaird/quantifying-greenwashing/blob/main/ig_scraper/batch.txt).
+## Selected Company Data
+-  **Every Global 2000 Company with:**
+    - a verified instagram account
+    - captions that are 80% in english
+- **Instagram posts per company:**
+    - every post in 2020
 
 ## Instagram Metrics
 The [Instagram scraper](https://github.com/madelinekinnaird/quantifying-greenwashing/blob/main/ig_scraper/post-scraper-list.py) built for this project was built using the extraordinary [Instaloader](https://instaloader.github.io/) package. The fifteen attributes below were collected for each companies Instagram feeds. 
