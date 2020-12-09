@@ -24,10 +24,12 @@ instagram = instaloader.Instaloader(download_comments=False, download_pictures=F
 ## aggie_datascraper
 ## aggie_datascraper1 (Dec 7 evening)
 ## aggie_datascraper2 (Dec 8 evening) DONT USE
+## aggie_datascraper3 (Dec 8 evening)
+# aggie_datascraper4 (Dec 9 morning)
 ## datascraper1234
 ## ivakinnaird
 
-instagram.load_session_from_file('aggie_datascraper3')
+instagram.load_session_from_file('aggie_datascraper4')
 
 ## where to put the output files
 output_path = pathlib.Path('../../../data/all_instagram_posts')

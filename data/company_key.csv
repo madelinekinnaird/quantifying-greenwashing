@@ -115,7 +115,6 @@
 483,483,Xfinity,xfinity,Comcast Corporation,Verified
 484,484,Comcast,comcast,Comcast Corporation,Verified
 487,487,Commerzbank,commerzbank,Commerzbank AG,Verified
-488,488,Commonwealth Bank,commbank_id,Commonwealth Bank of Australia,Verified
 489,489,Cartier,cartier,Compagnie Financiere Richemont SA,Verified
 493,493,CONAGRA FOODS,conagrafoodservice,"ConAgra Foods, Inc.",Verified
 494,494,Conair,conair,Conair,Verified
@@ -130,7 +129,6 @@
 536,536,CVS Health,cvshealth,CVS Caremark Corporation,Verified
 537,537,D.R. Horton,drhorton,"D.R. Horton, Inc.",Verified
 543,543,Mercedes-Benz,mercedesbenz,Daimler AG,Verified
-544,544,Daimler,daimler_ag,Daimler AG,Verified
 556,556,Dassault Systemes,dassaultsystemes,Dassault Systemes,Verified
 566,566,Dell Technologies,dell,Dell Technologies Inc,Verified
 567,567,Deloitte,deloitte,Deloitte,Verified
@@ -191,7 +189,6 @@
 753,753,GAMESTOP,gamestop,GameStop Corp.,Verified
 754,754,GAP,gap,Gap Inc.,Verified
 755,755,Garmin,garmin,Garmin International Inc.,Verified
-756,756,Gazprom,gazprom_neft.ru,Gazprom,Verified
 758,758,Geberit,geberit_usa,GEBERIT AG,Verified
 761,761,GEICO,geico,GEICO,Verified
 764,764,General Electric,generalelectric,General Electric Company,Verified
@@ -201,13 +198,8 @@
 769,769,Genting,resortsworldgenting,Genting Bhd,Verified
 779,779,Globe Life,globelifefield,Globe Life Inc,Verified
 782,782,Google,google,"Google, Inc.",Verified
-787,787,Gree,greeicy,Gree Inc,Verified
-792,792,SEB SA,sebsaavedra,Groupe SEB,Verified
-794,794,Grupo Bimbo,grupo_bimbo,"Grupo Bimbo, S.A. de C.V.",Verified
-797,797,Banorte,banorte_mx,"Grupo Financiero Banorte, S.A. de C.V.",Verified
 807,807,GUCCI,gucci,Gucci,Verified
 811,811,KRAFT HEINZ,kraftheinzus,H. J. Heinz Company,Verified
-812,812,Sabanci Holding,sabanciholding,Haci Omer Sabanci Holding A.S.,Verified
 815,815,Hainan Airlines,hainanairlines,"Hainan Airlines Co., Ltd.",Verified
 829,829,HARLEY-DAVIDSON,harleydavidson,"Harley-Davidson, Inc.",Verified
 830,830,Hasbro,hasbro,"Hasbro, Inc.",Verified
@@ -216,6 +208,7 @@
 839,839,Heineken,heineken,Heineken NV,Verified
 843,843,Henkel,henkel,HENKEL KGAA,Verified
 844,844,H&M,hm,Hennes & Mauritz,Verified
+,,HP,hp,Hewlett Packard Enterprise Co,
 851,851,Hewlett Packard Enterprise,hpe,Hewlett Packard Enterprise Co,Verified
 854,854,Hilton,hiltoncarter,HILTON WORLDWIDE HOLDINGS INC.,Verified
 857,857,Hobby Lobby,hobbylobby,Hobby Lobby,Verified
@@ -226,18 +219,15 @@
 883,883,Huawei,huawei,Huawei Technologies,Verified
 885,885,Humana,humana,Humana Inc.,Verified
 887,887,Huntington Bank,huntingtonbank,Huntington Bancshares Incorporated,Verified
-889,889,Huntsman,huntsmanabby,Huntsman International LLC,Verified
 900,900,Hyundai Mobis,hyundaimobisin,Hyundai Mobis,Verified
-901,901,Hyundai Motor,hmsgofficial,Hyundai Motor Co.,Verified
+901,901,Hyundai Motor,hyundaiusa,Hyundai Motor Co.,Verified
 903,903,Hikvision,hikvision,"HZ HIK-VISION DIGITAL TECH. CO.,LTD.",Verified
 905,905,Iberdrola,iberdrola,Iberdrola Renovables S.A.,Verified
-906,906,ICICI Bank,icicibank,ICICI Bank Ltd,Verified
 915,915,IKEA,ikeausa,IKEA Group,Verified
 922,922,Indian Bank,myindianbank,Indian Bank Ltd.,Verified
 924,924,ZARA,zara,Inditex SA,Verified
 926,926,IndusInd Bank,indusind_bank,IndusInd Bank Limited,Verified
 932,932,Infosys,infosys,Infosys Technologies,Verified
-936,936,Yili,yiliangpeng,"INNER MONGOLIA YILI INDUSTRIAL GROUP CO., LTD.",Verified
 941,941,Intel,intel,Intel Corporation,Verified
 943,943,Holiday Inn,holidayinn,Intercontinental Hotels Group,Verified
 945,945,IBM,ibm,International Business Machines Corporation (IBM),Verified
@@ -247,7 +237,6 @@
 954,954,Invesco,invescous,Invesco Ltd.,Verified
 962,962,ITC,itcosmetics,ITC Holdings Corp,Verified
 967,967,JM Smucker,jmsmuckerco,J.M. Smucker Co.,Verified
-968,968,Jacobs,jacobsartorius,Jacobs Douwe Egberts BV,Verified
 970,970,Warby Parker,warbyparker,"JAND, Inc.",Verified
 971,971,Japan Airlines,japanairlines_jal,Japan Airlines,Verified
 990,990,Johnson & Johnson,jnj,Johnson & Johnson,Verified
@@ -258,11 +247,9 @@
 1021,1021,Kering,kering_official,Kering Group,Verified
 1027,1027,KIA Motors,kiamotorsusa,Kia Motors Corporation,Verified
 1028,1028,Huggies,huggies,Kimberly-Clark Corporation,Verified
-1037,1037,KLA,klaythompson,KLA Corp,Verified
 1041,1041,Koç Holding,kocholding,KOC Holding A.S.,Verified
 1042,1042,Koch Industries,kochindustriesinc,"Koch Industries, Inc.",Verified
 1043,1043,Kohl's,kohls,Kohl's Corporation,Verified
-1047,1047,DSM,dsmoke7,Koninklijke DSM,Verified
 1049,1049,Philips,philips,Koninklijke Philips Electronics Na,Verified
 1054,1054,Kotak Mahindra Bank,kotakbankltd,Kotak Mahindra Bank Ltd,Verified
 1056,1056,Krispy Kreme,krispykreme,"Krispy Kreme Doughnuts, Inc.",Verified
@@ -276,40 +263,33 @@
 1087,1087,Leonardo,leonardodicaprio,Leonardo S.p.A,Verified
 1088,1088,Levi's,levis,Levi Strauss & Co.,Verified
 1092,1092,LG Electronics,lgelectronicsca,LG Electronics Inc.,Verified
-1094,1094,Liberbank,liberbank,"Liberbank, S.A.",Verified
 1096,1096,LIBERTY MUTUAL INSURANCE GROUP,libertymutual,Liberty Mutual Group,Verified
-1097,1097,LIC,liverpoolfc,"LIC CO.,LTD.",Verified
 1098,1098,Lidl,lidlus,Lidl Dienstleistung GmbH & Co KG (Lidl),Verified
-1100,1100,Linde,lindseygrahamsc,LINDE PUBLIC LIMITED COMPANY,Verified
 1103,1103,LinkedIn,linkedin,LinkedIn Corp.,Verified
 1108,1108,Lloyds Banking Group,lloydsbankinggroup,Lloyds TSB Group Plc,Verified
 1109,1109,Lockheed Martin,lockheedmartin,Lockheed Martin Corporation,Verified
-1116,1116,L'Oréal,lorealparis,L'Oreal,Verified
+1116,1116,L'Oréal,loreal,L'Oreal,Verified
 1118,1118,Lotte Shopping,lotteshopping,"Lotte Shopping Co., Ltd.",Verified
 1119,1119,Lowe's,loweshomeimprovement,"Lowe's Companies, Inc.",Verified
-1122,1122,LukOil,lukoil,Lukoil Holdings,Verified
 1128,1128,Louis Vuitton,louisvuitton,LVMH,Verified
 1129,1129,Lyft,lyft,Lyft Inc,Verified
 1132,1132,Macquarie Group,macquariegroup,Macquarie Group,Verified
 1133,1133,Macy's,macys,"Macy's, Inc.",Verified
-1134,1134,Magazine Luiza,magazineluiza,Magazine Luiza S.A.,Verified
-1138,1138,Mahindra & Mahindra,mahindrathar,Mahindra & Mahindra Ltd,Verified
 1139,1139,Makita,makitatools,MAKITA CORPORATION,Verified
 1140,1140,Maybank,maybankid,Malayan Banking Bhd,Verified
 1142,1142,Manulife,manulife,Manulife Financial Corporation,Verified
-1146,1146,Markel,markellefultz,Markel Corporation,Verified
 1148,1148,Marks & Spencer,marksandspencer_id,Marks and Spencer Group p.l.c.,Verified
 1149,1149,Marriott International,marriottintl,"Marriott International, Inc.",Verified
 1151,1151,Marshalls,marshalls,Marshalls PLC,Verified
 1157,1157,Mastercard,mastercard,MasterCard Inc.,Verified
 1159,1159,MATTEL,mattel,"Mattel, Inc.",Verified
+,,Mazda,mazda,MAZDA MOTOR CORPORATION,Verified
 1161,1161,Mazda Motor,mazdamotorsports,MAZDA MOTOR CORPORATION,Verified
-1162,1162,McCain,meghanmccain,McCain Foods Limited,Verified
-1163,1163,McCormick,mcandschmicks,"McCormick & Company, Incorporated",Verified
+1162,1162,McCain,mccaincanada,McCain Foods Limited,Verified
+1163,1163,McCormick,mccormickspice,"McCormick & Company, Incorporated",Verified
 1164,1164,McDonald's,mcdonalds,McDonald's Corporation,Verified
 1166,1166,McKinsey,mckinseyco,McKinsey & Company,Verified
 1170,1170,Banca Mediolanum,bancamediolanum,Mediolanum,Verified
-1177,1177,MercadoLibre,mercadolibre.vzla,Mercadolibre Inc.,Verified
 1186,1186,MetLife,mlstadium,"MetLife, Inc.",Verified
 1189,1189,MGM Resorts,mgmresortsintl,MGM Resorts International,Verified
 1193,1193,Xbox,xbox,Microsoft Corporation,Verified
