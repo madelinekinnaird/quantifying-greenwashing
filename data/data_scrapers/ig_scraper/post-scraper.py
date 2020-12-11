@@ -17,19 +17,21 @@ instagram = instaloader.Instaloader(download_comments=False, download_pictures=F
 
 									download_video_thumbnails=False, save_metadata=False, max_connection_attempts=0)
 ## loading the session created from ig_login.py!
-## gtown_datascraper
-## gtown_datascraper1
+## gtown_datascraper (Dec 9 Evening)
+## gtown_datascraper1 (dec 10 morning)
 ## gtown_datascraper2 (Dec 7 evening)
 ## gtown_datascraper3 (Dec 8 midday)
-## aggie_datascraper
+## gtown_datascraper4 (Dec 9 evening)
+## aggie_datascraper (Dec 10 mid morning)
 ## aggie_datascraper1 (Dec 7 evening)
 ## aggie_datascraper2 (Dec 8 evening) DONT USE
 ## aggie_datascraper3 (Dec 8 evening)
 # aggie_datascraper4 (Dec 9 morning)
-## datascraper1234
-## ivakinnaird
+## datascraper1234 (Dec. 10 evening - crash immediatly)
+## ivakinnaird (Dec 10, evening)
+## taylorkinnaird13
 
-instagram.load_session_from_file('aggie_datascraper4')
+instagram.load_session_from_file('taylorkinnaird13')
 
 ## where to put the output files
 output_path = pathlib.Path('../../../data/all_instagram_posts')

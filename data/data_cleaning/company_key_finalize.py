@@ -3,7 +3,8 @@ import os
 import glob
 
 
-df = pd.read_csv('..\company_key1.csv')
+df = pd.read_csv('..\company_key_verified.csv')
+len(df)
 ## only verified accounts
 df = df.loc[df['verified'] == 'Verified']
 
@@ -23,7 +24,7 @@ def count_words(row):
 df['words_in_username'] = df.apply(count_words, axis=1)
 df = df.loc[(df['words_in_username'] <= 1)]
 
-df = df.drop(['new_col', 'words_in_username', 'verified'], axis=1)
-
+df = df.drop(['new_col', 'words_in_username'], axis=1)
+df
 path = '../../data'
-df.to_csv(os.path.join(path,r'company_key2.csv'))
+df.to_csv(os.path.join(path,r'company_key.csv'))

@@ -14,16 +14,15 @@ import os
 
 
 ## get list of companies
-cdf = pd.read_csv('../../../data/company_key.csv')
-column = 'company'
+df = pd.read_csv('../../../data/company_key.csv')
+column = 'esg_company'
 companies = df[column]
-
+companies
 
 ## open driver
 driver = webdriver.Chrome('C:/Program Files/chromedriver.exe')
 wait = WebDriverWait(driver, 10)
 url = 'https://www.csrhub.com/'
-
 
 
 ## login
@@ -40,59 +39,66 @@ sign_in = driver.find_element_by_xpath('//*[@id="modal-signin"]/div/div/div[3]/b
 scraped_data = {}
 
 
-
 ## loop through companies
 for company_to_search in companies:
     ## set new ratings list
-    ratings = []
+    if company_to_search in scraped_data.keys():
+        print("Alreaady scraped", company_to_search)
+        pass
+    else:
+        print(company_to_search)
+        ratings = []
 
-    ## go to URL
-    driver.get(url)
+        ## go to URL
+        driver.get(url)
 
-    time.sleep(2)
+        time.sleep(2)
 
-    ## navigate to company page
-    driver.find_element_by_xpath('//*[@id="select2-lookup-string-min-container"]/span').click()
-    search = driver.find_element_by_css_selector('body > span > span > span.select2-search.select2-search--dropdown > input')
-    time.sleep(1)
-    search.send_keys(company_to_search)
-    time.sleep(1)
-    search.send_keys(Keys.ENTER)
+        ## navigate to company page
+        driver.find_element_by_xpath('//*[@id="select2-lookup-string-min-container"]/span').click()
+        search = driver.find_element_by_css_selector('body > span > span > span.select2-search.select2-search--dropdown > input')
+        time.sleep(1)
+        search.send_keys(company_to_search)
+        time.sleep(1)
+        search.send_keys(Keys.ENTER)
 
-    ## wait for page to load
-    time.sleep(15)
+        ## wait for page to load
+        time.sleep(15)
 
-    ## get page html
-    html_source = driver.page_source
-    soup = BeautifulSoup(html_source, "html.parser")
-    all_span = soup.select('span')
+        ## get page html
+        html_source = driver.page_source
+        soup = BeautifulSoup(html_source, "html.parser")
+        all_span = soup.select('span')
 
-    ## find just the number ratings on the page
-    for span in all_span:
-        content = span.text
-        if len(content) == 2 and content != '\n\n':
-            ratings.append(content)
+        ## find just the number ratings on the page
+        for span in all_span:
+            content = span.text
+            if len(content) == 2 and content != '\n\n':
+                ratings.append(content)
 
-    company = company_to_search
-    overall_rating = ratings[0]
-    community_rating = ratings[1]
-    employee_rating = ratings[2]
-    environment_rating = ratings[3]
-    governance_rating = ratings[4]
-    overall_percentage = ratings[5]
-    community_percentage = ratings[7]
-    employee_percentage = ratings[9]
-    environment_percentage = ratings[11]
-    governance_percentage = ratings[13]
+        company = company_to_search
+        overall_rating = ratings[0]
+        community_rating = ratings[1]
+        employee_rating = ratings[2]
+        environment_rating = ratings[3]
+        governance_rating = ratings[4]
+        overall_percentage = ratings[5]
+        community_percentage = ratings[7]
+        employee_percentage = ratings[9]
+        environment_percentage = ratings[11]
+        governance_percentage = ratings[13]
 
-    ratingsList = [company, overall_rating, community_rating, employee_rating, environment_rating, governance_rating, overall_percentage, community_percentage, employee_percentage, environment_percentage, governance_percentage]
-    scraped_data[company] = ratingsList
+        ratingsList = [company, overall_rating, community_rating, employee_rating, environment_rating, governance_rating, overall_percentage, community_percentage, employee_percentage, environment_percentage, governance_percentage]
+        scraped_data[company] = ratingsList
 
 ## check to see if our scraper worked!
 scraped_data
 
+cols = ['company', 'overall_rating', 'community_rating', 'employee_rating', 'environment_rating', 'governance_rating', 'overall_percentage', 'community_percentage', 'employee_percentage', 'environment_percentage', 'governance_percentage']
+
 ## turn into dataframe
 df = pd.DataFrame.from_dict(scraped_data, orient='index', columns = cols)
+df.drop
 df.reset_index(drop=True, inplace=True)
 df
 
