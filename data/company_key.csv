@@ -244,10 +244,8 @@
 998,998,JSW Steel,jsw.steel,JSW Steel Limited,Verified
 1004,1004,JUUL,juulvapor,JUUL Labs Inc,Verified
 1014,1014,KB Financial Group,kb.financialgroup,KB Financial Group Inc.,Verified
-1021,1021,Kering,kering_official,Kering Group,Verified
 1027,1027,KIA Motors,kiamotorsusa,Kia Motors Corporation,Verified
 1028,1028,Huggies,huggies,Kimberly-Clark Corporation,Verified
-1041,1041,Koç Holding,kocholding,KOC Holding A.S.,Verified
 1042,1042,Koch Industries,kochindustriesinc,"Koch Industries, Inc.",Verified
 1043,1043,Kohl's,kohls,Kohl's Corporation,Verified
 1049,1049,Philips,philips,Koninklijke Philips Electronics Na,Verified
@@ -255,30 +253,27 @@
 1056,1056,Krispy Kreme,krispykreme,"Krispy Kreme Doughnuts, Inc.",Verified
 1057,1057,Kroger,krogerco,Kroger Co.,Verified
 1059,1059,Kubota,kubotausa,KUBOTA CORPORATION,Verified
-1061,1061,Kuwait Finance House,kfhgroup,Kuwait Finance House KSC,Verified
 1066,1066,Victoria's Secret,victoriassecret,L Brands,Verified
 1068,1068,L.L. Bean,llbean,"L.L. Bean, Inc.",Verified
 1074,1074,LAND O'LAKES,landolakesinc,Land O'Lakes,Verified
 1082,1082,Lego,lego,LEGO,Verified
-1087,1087,Leonardo,leonardodicaprio,Leonardo S.p.A,Verified
 1088,1088,Levi's,levis,Levi Strauss & Co.,Verified
-1092,1092,LG Electronics,lgelectronicsca,LG Electronics Inc.,Verified
+1092,1092,LG Electronics,lgcanada,LG Electronics Inc.,Verified
 1096,1096,LIBERTY MUTUAL INSURANCE GROUP,libertymutual,Liberty Mutual Group,Verified
 1098,1098,Lidl,lidlus,Lidl Dienstleistung GmbH & Co KG (Lidl),Verified
 1103,1103,LinkedIn,linkedin,LinkedIn Corp.,Verified
 1108,1108,Lloyds Banking Group,lloydsbankinggroup,Lloyds TSB Group Plc,Verified
 1109,1109,Lockheed Martin,lockheedmartin,Lockheed Martin Corporation,Verified
 1116,1116,L'Oréal,loreal,L'Oreal,Verified
-1118,1118,Lotte Shopping,lotteshopping,"Lotte Shopping Co., Ltd.",Verified
 1119,1119,Lowe's,loweshomeimprovement,"Lowe's Companies, Inc.",Verified
 1128,1128,Louis Vuitton,louisvuitton,LVMH,Verified
 1129,1129,Lyft,lyft,Lyft Inc,Verified
 1132,1132,Macquarie Group,macquariegroup,Macquarie Group,Verified
 1133,1133,Macy's,macys,"Macy's, Inc.",Verified
 1139,1139,Makita,makitatools,MAKITA CORPORATION,Verified
-1140,1140,Maybank,maybankid,Malayan Banking Bhd,Verified
+1140,1140,Maybank,maybank,Malayan Banking Bhd,Verified
 1142,1142,Manulife,manulife,Manulife Financial Corporation,Verified
-1148,1148,Marks & Spencer,marksandspencer_id,Marks and Spencer Group p.l.c.,Verified
+1148,1148,Marks & Spencer,marksandspencer,Marks and Spencer Group p.l.c.,Verified
 1149,1149,Marriott International,marriottintl,"Marriott International, Inc.",Verified
 1151,1151,Marshalls,marshalls,Marshalls PLC,Verified
 1157,1157,Mastercard,mastercard,MasterCard Inc.,Verified
@@ -289,23 +284,17 @@
 1163,1163,McCormick,mccormickspice,"McCormick & Company, Incorporated",Verified
 1164,1164,McDonald's,mcdonalds,McDonald's Corporation,Verified
 1166,1166,McKinsey,mckinseyco,McKinsey & Company,Verified
-1170,1170,Banca Mediolanum,bancamediolanum,Mediolanum,Verified
-1186,1186,MetLife,mlstadium,"MetLife, Inc.",Verified
 1189,1189,MGM Resorts,mgmresortsintl,MGM Resorts International,Verified
 1193,1193,Xbox,xbox,Microsoft Corporation,Verified
 1194,1194,Microsoft,microsoft,Microsoft Corporation,Verified
 1201,1201,Mitsubishi,mitsubishimotors,Mitsubishi Corp.,Verified
 1205,1205,Mitsubishi Motors,mitsubishimotors,Mitsubishi Motors Corp.,Verified
 1220,1220,Morgan Stanley,morgan.stanley,Morgan Stanley,Verified
-1240,1240,nab,nabela,National Australia Bank Limited,Verified
 1241,1241,National Bank of Canada,nationalbankofcanada,National Bank of Canada,Verified
-1242,1242,National Bank of Kuwait,nbkgroup,National Bank Of Kuwait,Verified
 1243,1243,National Grid,nationalgrid,National Grid plc,Verified
 1245,1245,NatWest,natwest,National Westminster Bank Plc (NatWest),Verified
 1246,1246,NATIONWIDE,nationwide,"Nationwide Financial Services, Inc.",Verified
-1249,1249,Naver,naver_webtoon,Naver Corporation,Verified
 1251,1251,NBC,nbc,NBC Universal,Verified
-1254,1254,NEC,necessaire,NEC Corporation,Verified
 1255,1255,Nedbank,nedbank,Nedbank Group Limited,Verified
 1256,1256,Neste,nestletollhouse,Neste Oil OYJ,Verified
 1257,1257,Nestle,nestle,Nestle,Verified
@@ -318,7 +307,6 @@
 1275,1275,Nike,nike,"NIKE, Inc.",Verified
 1277,1277,Nintendo,nintendo,NINTENDO CO LTD,Verified
 1279,1279,Nippon Paint,nipponpaintsg,Nippon Paint,Verified
-1282,1282,NTT Group,nttgroup_official,NIPPON TELEGRAPH AND TELEPHONE CORPORATI,Verified
 1290,1290,Nokia,nokia,Nokia Corporation,Verified
 1294,1294,Nordstrom,nordstrom,"Nordstrom, Inc.",Verified
 1300,1300,Northrop Grumman,northropgrumman,Northrop Grumman Corporation,Verified
@@ -326,14 +314,11 @@
 1304,1304,Novartis,novartis,Novartis AG,Verified
 1306,1306,Novo Nordisk,novonordisk,Novo Nordisk,Verified
 1313,1313,NVIDIA,nvidia,NVIDIA Corporation,Verified
-1323,1323,Okta,oktaykaynarca,Okta Inc,Verified
 1326,1326,Old Mutual,oldmutualsa,Old Mutual PLC,Verified
 1327,1327,Olympus,getolympus,OLYMPUS CORPORATION,Verified
 1330,1330,OMV Group,omv,OMV AG,Verified
-1332,1332,Oneok,oneokrockofficial,"ONEOK, Inc.",Verified
+1332,1332,Oneok,oneok_inc,"ONEOK, Inc.",Verified
 1335,1335,Oracle,oracle,Oracle Corporation,Verified
-1336,1336,Orange,orangetheory,Orange S.A.,Verified
-1343,1343,Orkla,orlandobloom,Orkla ASA,Verified
 1344,1344,Orsted,orsted,Orsted,Verified
 1346,1346,Oshkosh,oshkoshkids,Oshkosh Corporation,Verified
 1356,1356,Panasonic,panasonic,Panasonic Corporation,Verified
@@ -346,8 +331,7 @@
 1368,1368,Gatorade,gatorade,"PepsiCo, Inc.",Verified
 1369,1369,PepsiCo,pepsico,"PepsiCo, Inc.",Verified
 1370,1370,Pepsi,pepsi,"Pepsi-Cola Products Philippines, Inc",Verified
-1371,1371,Pernod Ricard,pernodricard,Pernod Ricard,Verified
-1375,1375,Pemex,pemex,Petroleos Mexicanos,Verified
+1371,1371,Pernod Ricard,pernodricardau,Pernod Ricard,Verified
 1376,1376,Petronas,petronas,Petroliam Nasional,Verified
 1378,1378,PetSmart,petsmart,"PetSmart, Inc.",Verified
 1379,1379,Chewy,chewy,"PetSmart, Inc.",Verified
@@ -355,8 +339,6 @@
 1385,1385,Phillips 66,phillips66co,Phillips 66,Verified
 1392,1392,Pirelli,pirelli,Pirelli & Co,Verified
 1393,1393,Pizza Hut,pizzahut,Pizza Hut,Verified
-1404,1404,China Post,scmpnews,POSTAL SAVINGS BANK of CHINA Co Ltd,Verified
-1406,1406,Poste Italiane,posteitaliane,Poste Italiane,Verified
 1416,1416,prada,prada,Prada,Verified
 1419,1419,Gillette,gillette,Procter & Gamble Company,Verified
 1420,1420,Pantene,pantene,Procter & Gamble Company,Verified
@@ -364,8 +346,6 @@
 1422,1422,Progressive,progressive,Progressive Corporation,Verified
 1425,1425,Prudential,prudential,"Prudential Financial, Inc.",Verified
 1428,1428,Peugeot,peugeot,PSA Peugeot Citroen,Verified
-1430,1430,Telkom Indonesia,telkomindonesia,PT Telekomunikasi Indonesia,Verified
-1431,1431,PTT,potterybarn,PTT CHEMICAL PUBLIC COMPANY LIMITED,Verified
 1434,1434,Public Storage,publicstorage,"Public Storage, Inc.",Verified
 1435,1435,Publicis Groupe,publicisgroupe,Publicis Groupe SA,Verified
 1436,1436,Publix,publix,"Publix Super Markets, Inc.",Verified
@@ -375,59 +355,28 @@
 1453,1453,Ralph Lauren,ralphlauren,Ralph Lauren Corporation,Verified
 1460,1460,rei,rei,Recreational Equipment Inc.,Verified
 1462,1462,Red Bull,redbull,Red Bull,Verified
-1473,1473,Renault,renaultf1team,Renault SA,Verified
-1474,1474,Repsol,repsol,Repsol YPF,Verified
 1479,1479,RHB Bank,rhbgroup,RHB Capital Berhad,Verified
 1481,1481,RingCentral,ringcentral,RingCentral Inc,Verified
 1484,1484,RITE AID,riteaid,Rite Aid Corporation,Verified
-1485,1485,Riyad Bank,riyadbank,Riyad Bank,Verified
 1487,1487,Rockwell Automation,rokautomation,"Rockwell Automation, Inc.",Verified
 1489,1489,Roku,rokuplayer,"ROKU, INC.",Verified
 1490,1490,Rolex,rolex,Rolex,Verified
-1495,1495,Rosneft,rosneft_official,Rosneft Oil Ojsc,Verified
 1498,1498,RBC,rbc,Royal Bank of Canada,Verified
 1499,1499,Royal Bank of Scotland,royalbank,Royal Bank of Scotland Group,Verified
 1502,1502,Royal Dutch Shell,shell,Royal Dutch Shell,Verified
-1508,1508,Falabella,falabella_co,Saci Falabella,Verified
 1511,1511,St. James's Place,sjpwealth,Saint James's Place PLC,Verified
 1513,1513,Saipem,saipem_official,Saipem SpA,Verified
 1514,1514,Salesforce.com,salesforce,"Salesforce.com, Inc.",Verified
-1516,1516,Sampo,sampottorff,Sampo OYJ,Verified
 1522,1522,Samsung SDS,samsung.sds,"Samsung SDS Co., Ltd.",Verified
 1527,1527,Sanofi,sanofi,Sanofi,Verified
-1528,1528,Santos,enriquesantos,Santos Ltd,Verified
-1532,1532,Sartorius,jacobsartorius,Sartorius AG,Verified
-1540,1540,Sberbank,sberbank,Sberbank Rossia,Verified
 1543,1543,Schaeffler,schaefflergroup,Schaeffler Technologies GmbH & Co KG,Verified
 1546,1546,Schneider Electric,schneiderelectric,Schneider Electric,Verified
-1548,1548,Scor,scottiepippen,Scor SE,Verified
-1549,1549,SSE,ssense,Scottish & Southern Energy PLC,Verified
 1551,1551,Seagate Technology,seagate,Seagate Technology,Verified
 1556,1557,Bombardier,bombardier_jets,Bombardier Inc,Verified
 1557,1558,Square,square,Square Inc,Verified
 1558,1559,Wayfair,wayfair,Wayfair Inc,Verified
 1562,1563,Korean Air,koreanair,"Korean Air Lines Co., Ltd.",Verified
-1567,1568,Safaricom,safaricomplc_,Searching…,Verified
-1571,1572,Voestalpine,voestalpine,Searching…,Verified
-1587,1588,Autodesk,autodesk,Searching…,Verified
-1596,1597,RTL Group,rtl_group,Searching…,Verified
-1597,1598,Qurate Retail Group,qurateretailgrp,Searching…,Verified
-1602,1603,Gap,gap,Searching…,Verified
-1625,1626,Latam Airlines,latamairlines,Searching…,Verified
-1630,1631,Acciona,acciona,Searching…,Verified
-1636,1637,WEG,wegmans,Searching…,Verified
-1647,1648,LG Uplus,lguplus_,Searching…,Verified
-1648,1649,Royal Mail,royalmailofficial,Searching…,Verified
-1653,1654,Invitation Homes,invitationhomes,Searching…,Verified
-1665,1668,Rite Aid,riteaid,Searching…,Verified
-1668,1671,Bank Muscat,bankmuscat,Searching…,Verified
-1669,1672,Accor,accor,Searching…,Verified
-1676,1679,Commerce Bank,commercebank,Searching…,Verified
-1696,1699,Securitas,securitassverige,Securitas,Verified
 1703,1706,Sephora,sephora,Sephora,Verified
-1706,1709,Severstal,severstal,Severstal,Verified
-1719,1722,Sharp,shannonsharpe84,Sharp Corporation,Verified
-1730,1733,Shimizu,shimizuairi,SHIMIZU CORPORATION,Verified
 1736,1739,Shiseido,shiseido,Shiseido Company Limited,Verified
 1737,1740,Shopify,shopify,Shopify Inc,Verified
 1738,1741,Siemens,siemens,Siemens AG,Verified
@@ -437,11 +386,7 @@
 1748,1751,SiriusXM,siriusxm,SiriusXM Holdings Inc.,Verified
 1749,1752,Sistema,sistemaplastics,SISTEMA JSFC,Verified
 1754,1757,SK Telecom,sktelecom,"SK Telecom Co., Ltd.",Verified
-1765,1768,Snap,snapdogg,Snap Inc,Verified
 1766,1769,Snap-on,snapon_official,Snap-on Incorporated,Verified
-1767,1770,Société Générale,societegenerale,Societe Generale - Corporate & Invesment Banking,Verified
-1770,1773,Softbank,softbank_official,SOFTBANK CORPORATION,Verified
-1773,1776,Mosaic,mosaic,Solar Mosaic,Verified
 1777,1780,Sony,sony,Sony Corporation,Verified
 1778,1781,Southern Company,southerncompany,Southern Company,Verified
 1779,1782,Southwest Airlines,southwestair,Southwest Airlines Co.,Verified
@@ -452,25 +397,21 @@
 1789,1792,STAPLES,staples,"Staples, Inc.",Verified
 1790,1793,Starbucks,starbucks,Starbucks Corporation,Verified
 1792,1795,State Bank of India,theofficialsbi,State Bank of India Group,Verified
-1793,1796,State Farm,jakefromstatefarm,State Farm Insurance,Verified
+1793,1796,State Farm,statefarm,State Farm Insurance,Verified
 1796,1799,Steel Authority of India,steelauthority,Steel Authority of India Limited,Verified
-1807,1810,Sumitomo Chemical,sumitomochemicalargentina,Sumitomo Chemical Company Limited,Verified
 1823,1826,SUPERVALU,supervalu_irl,Supervalu Inc.,Verified
-1827,1830,Suzuki Motor,suzukiindonesiamotor,Suzuki Motor Corp.,Verified
-1831,1834,Swedbank,swedbanklietuvoje,Swedbank AB,Verified
+1827,1830,Suzuki Motor,suzukicycles,Suzuki Motor Corp.,Verified
 1837,1840,Swisscom,swisscom,Swisscom,Verified
 1845,1848,T Rowe Price,t._rowe_price,"T. Rowe Price Group, Inc.",Verified
 1846,1849,Taco Bell,tacobell,Taco Bell,Verified
 1857,1860,COACH,coach,"Tapestry, Inc",Verified
 1859,1862,Target,target,Target Corporation,Verified
-1861,1864,TATA Group,tatacompanies,Tata Group,Verified
+1861,1864,TATA Group,tatamotorsgroup,Tata Group,Verified
 1862,1865,Tata Motors,tatamotorscars,Tata Motors Limited,Verified
-1863,1866,Tata Steel,tskolkata25,Tata Steel Ltd.,Verified
 1864,1867,Taylor Wimpey,taylorwimpey,Taylor Wimpey,Verified
 1867,1870,TCL,tcl_usa,TCL Corporation,Verified
 1881,1884,Telstra,telstra,Telstra,Verified
 1882,1885,TELUS,telus,TELUS Corporation,Verified
-1884,1887,Tenaga Nasional,tenaga_nasional,Tenaga Nasional Bhd,Verified
 1891,1894,Tesco,tescofood,Tesco PLC,Verified
 1892,1895,Tesla,teslamotors,"Tesla Motors, Inc.",Verified
 1894,1897,Texas Instruments,txinstruments,Texas Instruments Incorporated,Verified
@@ -486,15 +427,12 @@
 1912,1915,NASDAQ,nasdaq,"The Nasdaq Stock Market, Inc.",Verified
 1913,1916,OFFICE DEPOT,officedepot,The ODP Corporation,Verified
 1915,1918,Sherwin-Williams,sherwinwilliams,The Sherwin-Williams Company,Verified
-1923,1926,Travelers,trvlrsseries,"The Travelers Companies, Inc.",Verified
-1924,1927,Walt Disney,waltdisneyworld,The Walt Disney Company,Verified
+1924,1927,Walt Disney,disney,The Walt Disney Company,Verified
 1925,1928,Western Union,westernunion,The Western Union Company,Verified
-1926,1929,Williams,thewilliamsfam,"The Williams Companies, Inc.",Verified
 1927,1930,Thermo Fisher Scientific,thermofisherscientific,Thermo Fisher Scientific,Verified
 1928,1931,Thomson Reuters,thomsonreuters,Thomson Reuters Corporation,Verified
 1932,1935,Tiffany & Co.,tiffanyandco,Tiffany & Co.,Verified
 1933,1936,Tim Hortons,timhortons,Tim Hortons,Verified
-1943,1946,Tokyu,tokyuhandsinc,"TOKYU CONSTRUCTION CO., LTD.",Verified
 1944,1947,Toll Brothers,tollbrothers,"Toll Brothers, Inc.",Verified
 1949,1952,Toshiba,toshibausa,TOSHIBA CORPORATION,Verified
 1954,1957,Lexus,lexususa,Toyota Motor Corp.,Verified
@@ -503,12 +441,10 @@
 1962,1965,TransUnion,transunion,TRANSUNION,Verified
 1968,1971,Turkish Airlines,turkishairlines,Turkish Airlines,Verified
 1970,1973,Halkbank,halkbank,Turkiye Halk Bankasi AS,Verified
-1972,1975,VakifBank,vakifbanksk,Turkiye Vakiflar Bankasi T.A.O.,Verified
 1974,1977,Twitter,twitter,Twitter,Verified
 1975,1978,Tyson Foods,tysonfoods,"Tyson Foods, Inc.",Verified
 1977,1980,United Airlines,unitedpilotsmec,UAL Corporation,Verified
 1978,1981,Uber,uber,Uber,Verified
-1979,1982,UBI Banca,ubibanca,UBI Banca,Verified
 1980,1983,UBS,ubs,UBS AG,Verified
 1983,1986,Ulta Beauty,ultabeauty,Ulta Beauty Inc,Verified
 1989,1992,Unilever,unilever,Unilever PLC,Verified
@@ -519,15 +455,13 @@
 2008,2011,US Foods,us_foods,"US Foods, Inc.",Verified
 2011,2014,Valero Energy,valeroenergy,Valero Energy Corporation,Verified
 2012,2015,Vanguard,vanguardgroup,Vanguard,Verified
-2017,2020,VEON,veronicabeard,VEON Ltd.,Verified
 2022,2025,Vertex Pharmaceuticals,vertexpharmaceuticals,Vertex Pharmaceuticals Incorporated,Verified
-2024,2027,CBS,cbssports,CBS Broadcasting Inc,Verified
+2024,2027,CBS,cbstv,CBS Broadcasting Inc,Verified
 2025,2028,ViacomCBS,viacomcbs,ViacomCBS Inc.,Verified
-2027,2030,Victoria,vlfuller,Victoria,Verified
 2032,2035,Visa,visa_us,Visa International,Verified
 2035,2038,Vodafone,vodafoneuk,Vodafone Group Inc.,Verified
-2036,2039,Volkswagen Group,volkswagengroup_culture,Volkswagen AG,Verified
-2047,2050,Walgreens Boots Alliance,wba_global,Walgreen Co.,Verified
+2036,2039,Volkswagen Group,volkswagen,Volkswagen AG,Verified
+2047,2050,Walgreens Boots Alliance,walgreens,Walgreen Co.,Verified
 2048,2051,Walmart,walmart,"Wal-Mart Stores, Inc.",Verified
 2049,2052,Sam's Club,samsclub,"Wal-Mart Stores, Inc.",Verified
 2050,2053,Asda,asda,"Wal-Mart Stores, Inc.",Verified
@@ -537,18 +471,14 @@
 2064,2067,Western Digital,westerndigital,Western Digital Corp.,Verified
 2072,2075,Whirlpool,whirlpoolusa,Whirlpool Corporation,Verified
 2073,2076,Whole Foods,wholefoods,"Whole Foods Market, Inc.",Verified
-2084,2087,Woolworths,woolworths_au,WOOLWORTHS GROUP PLC,Verified
 2088,2091,WPP,wpp,WPP Group,Verified
-2095,2098,X5 Retail Group,x5retailgroup,X5 Retail Group NV,Verified
-2096,2099,Xcel Energy,xcelenergy,Xcel Energy Inc.,Verified
 2097,2100,Xerox,xerox,Xerox Corporation,Verified
-2099,2102,Xiaomi,xiaomi.usa,Xiaomi Inc,Verified
-2104,2107,Yamaha Motor,yamahamotorarg,Yamaha Motor Company Limited,Verified
+2099,2102,Xiaomi,xiaomi.global,Xiaomi Inc,Verified
+2104,2107,Yamaha Motor,yamahamotorusa,Yamaha Motor Company Limited,Verified
 2108,2111,Yara International,yarainternational,Yara International ASA,Verified
 2109,2112,Yes Bank,yes_bank,Yes Bank Ltd.,Verified
 2110,2113,Yeti,yeti,"YETI Holdings, Inc.",Verified
 2114,2117,YouTube,youtube,YouTube,Verified
-2122,2125,Zalando,zalando,Zalando SE,Verified
 2123,2126,Zenith Bank,zenithbankplc,ZENITH INTERNATIONAL BANK PLC,Verified
 2130,2133,Zoetis,zoetispetcare,Zoetis Inc.,Verified
 2131,2134,zoom,zoom,Zoom Corp,Verified
