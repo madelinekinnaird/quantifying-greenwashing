@@ -29,7 +29,7 @@ sample_table = [
 ]
 
 df = pd.DataFrame(sample_table, columns=["Company", "Country", "Sales", "Profits", "Assets", "Market Value"])
-df.to_csv("forbes_2020.csv", index=False)
+df.to_csv("forbes_2020.csv", index=True)
 Output:
 
 df

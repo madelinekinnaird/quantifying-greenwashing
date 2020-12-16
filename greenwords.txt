@@ -1,9 +1,1 @@
-eco
-eco-friendly
-green
-organic
-clean
-sustainable
-sustainability
-carbon
-emissions
+eco, eco-friendly, green, organic, clean, sustainable, sustainability, carbon, emissions

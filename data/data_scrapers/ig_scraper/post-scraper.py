@@ -17,21 +17,44 @@ instagram = instaloader.Instaloader(download_comments=False, download_pictures=F
 
 									download_video_thumbnails=False, save_metadata=False, max_connection_attempts=0)
 ## loading the session created from ig_login.py!
-## gtown_datascraper (Dec 9 Evening)
+## gtown_datascraper (Dec 12 Morning)
 ## gtown_datascraper1 (dec 10 morning)
-## gtown_datascraper2 (Dec 7 evening)
-## gtown_datascraper3 (Dec 8 midday)
-## gtown_datascraper4 (Dec 9 evening)
+## gtown_datascraper2 ( dec 11 evening)
+## gtown_datascraper3 (dec 12)
+## gtown_datascraper4 (Dec 12 morning)
 ## aggie_datascraper (Dec 10 mid morning)
-## aggie_datascraper1 (Dec 7 evening)
-## aggie_datascraper2 (Dec 8 evening) DONT USE
-## aggie_datascraper3 (Dec 8 evening)
-# aggie_datascraper4 (Dec 9 morning)
-## datascraper1234 (Dec. 10 evening - crash immediatly)
-## ivakinnaird (Dec 10, evening)
-## taylorkinnaird13
+## aggie_datascraper1 (Dec 12 Morning)
 
-instagram.load_session_from_file('taylorkinnaird13')
+## aggie_datascraper3 (Dec 12 morning)
+# aggie_datascraper4 (Dec 12 morning)
+## datascraper1234 (Dec. 12 morning)
+## ivakinnaird (Dec 10, evening) (12 morning)
+## taylorkinnaird13
+#taylor_rose_kinnaird13
+## daisykinnaird
+## jameskinnaird13
+## emilyrananana
+## jamesbethany13
+## lilyswift26
+## rexrexrexroth
+
+instagram.load_session_from_file('ivakinnaird')
+
+## COMPANIES TO REDO
+## interpublicipg
+## japanair
+## kochindustriesinc
+## kohls
+## krogerco
+## victoriasecret
+## libean
+## levis
+## nokia
+## REI
+## redbull
+## spotify
+## tollbrothers
+## universal standard
 
 ## where to put the output files
 output_path = pathlib.Path('../../../data/all_instagram_posts')
@@ -62,7 +85,7 @@ for company in companies:
 		post_writer = csv.DictWriter(post_file, fieldnames=["shortcode", "username", "date_utc",
 															"is_video", "is_sponsored", "hashtags", "mentions", "caption",
 															"video_view_count", "video_length", "likes",
-															"comments", "likes+comments", "location_name", "location_latlong"])
+															"comments", "location_name", "location_latlong"])
 
 
 		post_writer.writeheader()
