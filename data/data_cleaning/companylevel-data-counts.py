@@ -3,16 +3,10 @@ import numpy as np
 import os
 import copy
 
-#path = os.getcwd()
-#print(path)
 
-## import both instagram and rating csvs
+## import instagram csvs
 df = pd.read_csv('..\master_data_postlevel_counts.csv')
-ratings = pd.read_csv('..\environment_ratings.csv')
 df = df.drop(columns=['Unnamed: 0'])
-df.dtypes
-
-df.sample(5)
 
 ##################################### GENERAL AGGREGATIONS #############################################
 
@@ -62,7 +56,7 @@ aggregations = {'shortcode' :'count',
     }
 
 
-df.dtypes
+## aggregate averages by company
 company_info = ['company','environment_rating', 'environment_percentage', 'Country', 'Sales', 'Profits', 'Assets', 'Market Value']
 df_agg = df.groupby(company_info, as_index = False).agg(aggregations)
 
@@ -96,48 +90,38 @@ green_agg = green_agg.reset_index()
 ## make a copy for different manipulations
 green_aggs_diffs = copy.deepcopy(green_agg)
 
-
 ## get rid of the double index and make column names more legible
 a = green_agg.columns
 ind = pd.Index([e[0] + '_' + str(e[1]) for e in a.tolist()])
 green_agg.columns = ind
 green_agg = green_agg.rename(columns={"company_": "company"})
 
-
-
-## calculate difference between aveerages with and without green_words
+## calculate difference between averages with and without green_words
 for column in values:
     green_aggs_diffs[column+'_green_diff'] = green_aggs_diffs[column][1] - green_aggs_diffs[column][0]
+## drop extra index
+green_aggs_diffs.columns = green_aggs_diffs.columns.droplevel(-1)
 
-green_aggs_diffs = green_aggs_diffs.drop(columns = values)
 
-
-## merge green ags
-green_agg.merge(green_aggs_diffs, on = 'company')
-
+green_aggs_complete = green_agg.merge(green_aggs_diffs, on='company')
 
 ####################################### MERGE ##########################################################
+## merge green ags
+company_level_data = df_agg.merge(green_aggs_complete, on='company')
 
-test = df_agg.merge(green_agg, on='company')
-test.dtypes
+
 ####################################### POST FREQUENCY ##########################################################
+## posts per year
+company_level_data = company_level_data.rename(columns={"shortcode": "posts_per_year"})
 
-## avergae posts per day
-test['shortcode']/388
+## posts per day, currently data goes through dec 5th so only 39 days.
+company_level_data['posts_per_day'] = company_level_data['posts_per_year']/339
 
-
-
-
-
-
-
+## not all posts have a caption, captions per year
+company_level_data['captions_per_year'] = company_level_data['caption']/company_level_data['posts_per_year']
 
 
-output.to_csv("path_to_file, index = False, encoding="utf-8")
+####################################### EXPORT TO CSV ##########################################################
+company_level_data.to_csv( "master_data_companylevel_counts.csv", index=False, encoding='utf-8-sig')
 
-
-
-import pandas as pd
-
-read_file = pd.read_csv (r'C:/Users/madel/projects/quantifying-greenwashing/data/Data')
-read_file.to_csv(r'C:/Users/madel/projects/quantifying-greenwashing/data/Data.csv', index=None)
+#output.to_csv("path_to_file, index = False, encoding="utf-8")
